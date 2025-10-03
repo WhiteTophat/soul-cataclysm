@@ -19,6 +19,7 @@ public class SoulcataclysmModItems {
 	public static final RegistryObject<Item> SOUL_DIRT = block(SoulcataclysmModBlocks.SOUL_DIRT);
 	public static final RegistryObject<Item> SOUL_STONE = block(SoulcataclysmModBlocks.SOUL_STONE);
 	public static final RegistryObject<Item> SOUL_LOG = block(SoulcataclysmModBlocks.SOUL_LOG);
+	public static final RegistryObject<Item> SOUL_LEAVES = block(SoulcataclysmModBlocks.SOUL_LEAVES);
 
 	// Start of user code block custom items
 	// End of user code block custom items

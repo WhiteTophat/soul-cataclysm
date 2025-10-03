@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "soulcataclysm:soul_leaves",
+    "soulcataclysm:soul_dirt",
+    "soulcataclysm:soul_stone",
+    "soulcataclysm:soul_log"
+  ]
+}

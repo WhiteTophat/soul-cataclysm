@@ -6,6 +6,7 @@ package net.tophat.soulcataclysm.init;
 
 import net.tophat.soulcataclysm.block.SoulStoneBlock;
 import net.tophat.soulcataclysm.block.SoulLogBlock;
+import net.tophat.soulcataclysm.block.SoulLeavesBlock;
 import net.tophat.soulcataclysm.block.SoulDirtBlock;
 import net.tophat.soulcataclysm.SoulcataclysmMod;
 
@@ -20,6 +21,7 @@ public class SoulcataclysmModBlocks {
 	public static final RegistryObject<Block> SOUL_DIRT = REGISTRY.register("soul_dirt", () -> new SoulDirtBlock());
 	public static final RegistryObject<Block> SOUL_STONE = REGISTRY.register("soul_stone", () -> new SoulStoneBlock());
 	public static final RegistryObject<Block> SOUL_LOG = REGISTRY.register("soul_log", () -> new SoulLogBlock());
+	public static final RegistryObject<Block> SOUL_LEAVES = REGISTRY.register("soul_leaves", () -> new SoulLeavesBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

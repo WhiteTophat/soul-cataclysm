@@ -49,22 +49,9 @@
       }
     },
     {
-      "name": "SoulInfector",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "soul_infector",
-      "metadata": {
-        "files": [
-          "src/main/java/net/tophat/soulcataclysm/entity/SoulInfectorEntity.java",
-          "src/main/java/net/tophat/soulcataclysm/client/renderer/SoulInfectorRenderer.java"
-        ]
-      }
-    },
-    {
       "name": "InfectionHandler",
       "type": "code",
-      "compiles": true,
+      "compiles": false,
       "locked_code": true,
       "registry_name": "infection_handler",
       "metadata": {
@@ -74,19 +61,88 @@
       }
     },
     {
-      "name": "InfectorGoal",
-      "type": "code",
+      "name": "SoulSpreadProc",
+      "type": "procedure",
       "compiles": true,
       "locked_code": true,
-      "registry_name": "infector_goal",
+      "registry_name": "soul_spread_proc",
       "metadata": {
         "files": [
-          "src/main/java/net/tophat/soulcataclysm/InfectorGoal.java"
+          "src/main/java/net/tophat/soulcataclysm/procedures/SoulSpreadProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_leaves.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_leaves.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_leaves.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulLeavesBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "Ddf",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/procedures/DdfProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "points",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "reputation",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
@@ -95,6 +151,15 @@
     "BLOCKS:minecraft:mineable/axe": [
       "~CUSTOM:SoulLog"
     ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:SoulLeaves"
+    ],
+    "BLOCKS:soulcataclysm:infected": [
+      "CUSTOM:SoulLeaves",
+      "CUSTOM:SoulDirt",
+      "CUSTOM:SoulStone",
+      "CUSTOM:SoulLog"
+    ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~CUSTOM:SoulDirt"
     ]
@@ -102,7 +167,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "entity.soulcataclysm.soul_infector": "Soul Infector",
+      "block.soulcataclysm.soul_leaves": "Soul Leaves",
       "block.soulcataclysm.soul_stone": "Soul Stone",
       "block.soulcataclysm.soul_log": "Soul Log",
       "block.soulcataclysm.soul_dirt": "Soul Dirt"

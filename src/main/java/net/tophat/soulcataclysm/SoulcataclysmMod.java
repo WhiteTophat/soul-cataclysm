@@ -4,7 +4,6 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.tophat.soulcataclysm.init.SoulcataclysmModItems;
-import net.tophat.soulcataclysm.init.SoulcataclysmModEntities;
 import net.tophat.soulcataclysm.init.SoulcataclysmModBlocks;
 
 import net.minecraftforge.network.simple.SimpleChannel;
@@ -44,7 +43,6 @@ public class SoulcataclysmMod {
 		SoulcataclysmModBlocks.REGISTRY.register(bus);
 
 		SoulcataclysmModItems.REGISTRY.register(bus);
-		SoulcataclysmModEntities.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
