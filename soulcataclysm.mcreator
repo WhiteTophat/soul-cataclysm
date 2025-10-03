@@ -1,0 +1,131 @@
+{
+  "mod_elements": [
+    {
+      "name": "SoulDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_dirt.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_dirt.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_dirt.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulDirtBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_dirt.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_stone.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_stone.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulStoneBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_log.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_log.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulLogBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_log.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_log.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulInfector",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soul_infector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/entity/SoulInfectorEntity.java",
+          "src/main/java/net/tophat/soulcataclysm/client/renderer/SoulInfectorRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "InfectionHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infection_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/InfectionHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "InfectorGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infector_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/InfectorGoal.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SoulStone"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SoulLog"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:SoulDirt"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.soulcataclysm.soul_infector": "Soul Infector",
+      "block.soulcataclysm.soul_stone": "Soul Stone",
+      "block.soulcataclysm.soul_log": "Soul Log",
+      "block.soulcataclysm.soul_dirt": "Soul Dirt"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "soulcataclysm",
+    "modName": "Soul Cataclysm",
+    "version": "1.0.0",
+    "author": "willi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.tophat.soulcataclysm"
+  },
+  "mcreatorVersion": 202400452410
+}

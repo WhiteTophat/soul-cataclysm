@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulcataclysm:block/soul_stone",
+    "up": "soulcataclysm:block/soul_stone",
+    "north": "soulcataclysm:block/soul_stone",
+    "east": "soulcataclysm:block/soul_stone",
+    "south": "soulcataclysm:block/soul_stone",
+    "west": "soulcataclysm:block/soul_stone",
+    "particle": "soulcataclysm:block/soul_stone"
+  },
+  "render_type": "solid"
+}
