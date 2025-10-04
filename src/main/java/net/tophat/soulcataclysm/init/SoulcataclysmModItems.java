@@ -4,6 +4,7 @@
  */
 package net.tophat.soulcataclysm.init;
 
+import net.tophat.soulcataclysm.item.EctoniumClumpItem;
 import net.tophat.soulcataclysm.SoulcataclysmMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -20,6 +21,25 @@ public class SoulcataclysmModItems {
 	public static final RegistryObject<Item> SOUL_STONE = block(SoulcataclysmModBlocks.SOUL_STONE);
 	public static final RegistryObject<Item> SOUL_LOG = block(SoulcataclysmModBlocks.SOUL_LOG);
 	public static final RegistryObject<Item> SOUL_LEAVES = block(SoulcataclysmModBlocks.SOUL_LEAVES);
+	public static final RegistryObject<Item> SOUL_PLANKS = block(SoulcataclysmModBlocks.SOUL_PLANKS);
+	public static final RegistryObject<Item> SOUL_BONE_BLOCK = block(SoulcataclysmModBlocks.SOUL_BONE_BLOCK);
+	public static final RegistryObject<Item> SOUL_BRICKS = block(SoulcataclysmModBlocks.SOUL_BRICKS);
+	public static final RegistryObject<Item> SOUL_STONE_BRICKS = block(SoulcataclysmModBlocks.SOUL_STONE_BRICKS);
+	public static final RegistryObject<Item> MOSSY_SOUL_STONE_BRICKS = block(SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS);
+	public static final RegistryObject<Item> CRACKED_SOUL_STONE_BRICKS = block(SoulcataclysmModBlocks.CRACKED_SOUL_STONE_BRICKS);
+	public static final RegistryObject<Item> CHISELED_SOUL_STONE_BRICKS = block(SoulcataclysmModBlocks.CHISELED_SOUL_STONE_BRICKS);
+	public static final RegistryObject<Item> ECTONIUM_BLOCK = block(SoulcataclysmModBlocks.ECTONIUM_BLOCK);
+	public static final RegistryObject<Item> ECTONIUM_CLUMP = REGISTRY.register("ectonium_clump", () -> new EctoniumClumpItem());
+	public static final RegistryObject<Item> SOUL_WOOD_STAIRS = block(SoulcataclysmModBlocks.SOUL_WOOD_STAIRS);
+	public static final RegistryObject<Item> SOUL_WOOD_SLAB = block(SoulcataclysmModBlocks.SOUL_WOOD_SLAB);
+	public static final RegistryObject<Item> SOUL_WOOD_FENCE = block(SoulcataclysmModBlocks.SOUL_WOOD_FENCE);
+	public static final RegistryObject<Item> SOUL_WOOD_FENCE_GATE = block(SoulcataclysmModBlocks.SOUL_WOOD_FENCE_GATE);
+	public static final RegistryObject<Item> SOUL_COMMUNICATOR = block(SoulcataclysmModBlocks.SOUL_COMMUNICATOR);
+	public static final RegistryObject<Item> SOUL_COBBLESTONE = block(SoulcataclysmModBlocks.SOUL_COBBLESTONE);
+	public static final RegistryObject<Item> MOSSY_SOUL_COBBLESTONE = block(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE);
+	public static final RegistryObject<Item> SOUL_FLOWER = block(SoulcataclysmModBlocks.SOUL_FLOWER);
+	public static final RegistryObject<Item> SOUL_GRASS = block(SoulcataclysmModBlocks.SOUL_GRASS);
+	public static final RegistryObject<Item> SOUL_DIRT_PATH = block(SoulcataclysmModBlocks.SOUL_DIRT_PATH);
 
 	// Start of user code block custom items
 	// End of user code block custom items

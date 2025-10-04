@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulcataclysm:block/mossy_soul_stone_bricks",
+    "up": "soulcataclysm:block/mossy_soul_stone_bricks",
+    "north": "soulcataclysm:block/mossy_soul_stone_bricks",
+    "east": "soulcataclysm:block/mossy_soul_stone_bricks",
+    "south": "soulcataclysm:block/mossy_soul_stone_bricks",
+    "west": "soulcataclysm:block/mossy_soul_stone_bricks",
+    "particle": "soulcataclysm:block/mossy_soul_stone_bricks"
+  },
+  "render_type": "solid"
+}

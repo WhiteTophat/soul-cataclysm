@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulcataclysm:block/soul_planks",
+    "up": "soulcataclysm:block/soul_planks",
+    "north": "soulcataclysm:block/soul_planks",
+    "east": "soulcataclysm:block/soul_planks",
+    "south": "soulcataclysm:block/soul_planks",
+    "west": "soulcataclysm:block/soul_planks",
+    "particle": "soulcataclysm:block/soul_planks"
+  },
+  "render_type": "solid"
+}

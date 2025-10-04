@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulcataclysm:block/soul_communicator",
+    "up": "soulcataclysm:block/soul_communicator",
+    "north": "soulcataclysm:block/soul_communicator",
+    "east": "soulcataclysm:block/soul_communicator",
+    "south": "soulcataclysm:block/soul_communicator",
+    "west": "soulcataclysm:block/soul_communicator",
+    "particle": "soulcataclysm:block/soul_communicator"
+  },
+  "render_type": "solid"
+}

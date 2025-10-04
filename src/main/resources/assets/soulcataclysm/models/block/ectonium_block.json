@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulcataclysm:block/ectonium_block_top",
+    "up": "soulcataclysm:block/ectonium_block_top",
+    "north": "soulcataclysm:block/ectonium_block_side",
+    "east": "soulcataclysm:block/ectonium_block_side",
+    "south": "soulcataclysm:block/ectonium_block_side",
+    "west": "soulcataclysm:block/ectonium_block_side",
+    "particle": "soulcataclysm:block/ectonium_block_top"
+  },
+  "render_type": "solid"
+}

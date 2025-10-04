@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulcataclysm:block/cracked_soul_stone_bricks",
+    "up": "soulcataclysm:block/cracked_soul_stone_bricks",
+    "north": "soulcataclysm:block/cracked_soul_stone_bricks",
+    "east": "soulcataclysm:block/cracked_soul_stone_bricks",
+    "south": "soulcataclysm:block/cracked_soul_stone_bricks",
+    "west": "soulcataclysm:block/cracked_soul_stone_bricks",
+    "particle": "soulcataclysm:block/cracked_soul_stone_bricks"
+  },
+  "render_type": "solid"
+}

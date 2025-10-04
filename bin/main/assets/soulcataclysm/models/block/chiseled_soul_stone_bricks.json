@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulcataclysm:block/chiseled_soul_stone_bricks",
+    "up": "soulcataclysm:block/chiseled_soul_stone_bricks",
+    "north": "soulcataclysm:block/chiseled_soul_stone_bricks",
+    "east": "soulcataclysm:block/chiseled_soul_stone_bricks",
+    "south": "soulcataclysm:block/chiseled_soul_stone_bricks",
+    "west": "soulcataclysm:block/chiseled_soul_stone_bricks",
+    "particle": "soulcataclysm:block/chiseled_soul_stone_bricks"
+  },
+  "render_type": "solid"
+}

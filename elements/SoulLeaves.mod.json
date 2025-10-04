@@ -42,7 +42,11 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:SoulCataclysmTab"
+      }
+    ],
     "destroyTool": "hoe",
     "customDrop": {
       "value": "Blocks.AIR"
@@ -117,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "SoulSpreadProc"
+    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

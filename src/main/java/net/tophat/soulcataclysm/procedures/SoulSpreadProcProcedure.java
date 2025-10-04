@@ -12,6 +12,10 @@ public class SoulSpreadProcProcedure {
 		if (world instanceof ServerLevelAccessor server) {
 			BlockPos decidedSpread = InfectionHandler.decideSpread(server.getLevel(), BlockPos.containing(x,y,z), 2);
 			if (decidedSpread != null) {
+				BlockPos plantPos = BlockPos.containing(decidedSpread.getX(), decidedSpread.getY() + 1, decidedSpread.getZ());
+				if (InfectionHandler.isPlantBlock(world.getBlockState(plantPos))) {
+					world.setBlock(plantPos, InfectionHandler.infectBlock(world.getBlockState(plantPos)), 3);
+				}
 				world.setBlock(decidedSpread, InfectionHandler.infectBlock(world.getBlockState(decidedSpread)), 3);
 			}
 		}

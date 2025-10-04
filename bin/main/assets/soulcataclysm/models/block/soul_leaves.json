@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulcataclysm:block/soul_leaves",
+    "up": "soulcataclysm:block/soul_leaves",
+    "north": "soulcataclysm:block/soul_leaves",
+    "east": "soulcataclysm:block/soul_leaves",
+    "south": "soulcataclysm:block/soul_leaves",
+    "west": "soulcataclysm:block/soul_leaves",
+    "particle": "soulcataclysm:block/soul_leaves"
+  },
+  "render_type": "cutout"
+}

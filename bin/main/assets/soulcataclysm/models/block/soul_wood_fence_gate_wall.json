@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "particle": "soulcataclysm:block/soul_planks",
+    "texture": "soulcataclysm:block/soul_planks"
+  },
+  "render_type": "solid"
+}

@@ -13,13 +13,19 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;
 import net.minecraft.core.NonNullList;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.tags.ItemTags;
 
 import java.util.Stack;
 import java.util.Map;
@@ -32,6 +38,52 @@ public class InfectionHandler {
 	}
 	public static boolean blockHasTag(Block block, String tag) {
 		return blockHasTag(block.defaultBlockState(), tag);
+	}
+	public static boolean itemHasTag(ItemStack item, String tag) {
+		return item.is(ItemTags.create(new ResourceLocation(tag)));
+	}
+	public static boolean itemHasTag(Item item, String tag) {
+		return itemHasTag(new ItemStack(item), tag);
+	}
+	public static boolean itemHasAnyTag(ItemStack item, String[] tags) {
+		for (String tag : tags) {
+			if (itemHasTag(item, tag)) return true;
+		}
+		return false;
+	}
+	public static boolean itemHasAnyTag(Item item, String[] tags) {
+		for (String tag : tags) {
+			if (itemHasTag(item, tag)) return true;
+		}
+		return false;
+	}
+	public static BlockState copyProperty(BlockState origin, BlockState target, String propertyName) {
+		Property<?> originProperty = origin.getBlock().getStateDefinition().getProperty(propertyName);
+		Property<?> targetProperty = target.getBlock().getStateDefinition().getProperty(propertyName);
+		if (originProperty == null || targetProperty == null) { return target; }
+		BlockState modified = target;
+		if (originProperty instanceof EnumProperty enumProperty && targetProperty instanceof EnumProperty uninfEnumProperty) {
+			modified = modified.setValue(enumProperty, origin.getValue(uninfEnumProperty));
+		} else if (originProperty instanceof BooleanProperty enumProperty && targetProperty instanceof BooleanProperty uninfEnumProperty) {
+			modified = modified.setValue(enumProperty, origin.getValue(uninfEnumProperty));
+		} else if (originProperty instanceof IntegerProperty enumProperty && targetProperty instanceof IntegerProperty uninfEnumProperty) {
+			modified = modified.setValue(enumProperty, origin.getValue(uninfEnumProperty));
+		} else {
+			modified = modified.setValue((Property) targetProperty, origin.getValue((Property) originProperty));
+		}
+		return modified;
+	}
+	public static BlockState copyProperties(BlockState origin, BlockState target, String[] properties) {
+		BlockState modified = target;
+		for (String prop : properties) {
+			modified = copyProperty(origin, modified, prop);
+		}
+		return modified;
+	}
+	public static boolean isPlantBlock(BlockState block) {
+		if (blockHasTag(block, "minecraft:flowers")) { return true; }
+		if (block.getBlock() == Blocks.GRASS) { return true; }
+		return false;
 	}
 
 	// Variables
@@ -119,12 +171,54 @@ public class InfectionHandler {
 			return SoulcataclysmModBlocks.SOUL_STONE.get().defaultBlockState();
 		} else if (blockHasTag(block, "minecraft:leaves")) {
 			return SoulcataclysmModBlocks.SOUL_LEAVES.get().defaultBlockState();
+		} else if (blockHasTag(block, "minecraft:stone_bricks")) {
+			if (block.getBlock() == Blocks.MOSSY_STONE_BRICKS) {
+				return SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS.get().defaultBlockState();
+			} else if (block.getBlock() == Blocks.CRACKED_STONE_BRICKS) {
+				return SoulcataclysmModBlocks.CRACKED_SOUL_STONE_BRICKS.get().defaultBlockState();
+			} else if (block.getBlock() == Blocks.CHISELED_STONE_BRICKS) {
+				return SoulcataclysmModBlocks.CHISELED_SOUL_STONE_BRICKS.get().defaultBlockState();
+			}
+			return SoulcataclysmModBlocks.SOUL_STONE_BRICKS.get().defaultBlockState();
+		} else if (block.getBlock() == Blocks.BONE_BLOCK) {
+			BlockState infected = SoulcataclysmModBlocks.SOUL_BONE_BLOCK.get().defaultBlockState();
+			Property<?> uninfectedProperty = block.getBlock().getStateDefinition().getProperty("axis");
+			Property<?> property = infected.getBlock().getStateDefinition().getProperty("axis");
+			if (property instanceof EnumProperty enumProperty && uninfectedProperty instanceof EnumProperty uninfEnumProperty) {
+				infected = infected.setValue(enumProperty, block.getValue(uninfEnumProperty));
+			}
+			return infected;
+		} else if (block.getBlock() == Blocks.BRICKS) {
+			return SoulcataclysmModBlocks.SOUL_BRICKS.get().defaultBlockState();
+		} else if (blockHasTag(block, "minecraft:planks")) {
+			return SoulcataclysmModBlocks.SOUL_PLANKS.get().defaultBlockState();
+		} else if (blockHasTag(block, "minecraft:wooden_stairs")) {
+			return copyProperties(block, SoulcataclysmModBlocks.SOUL_WOOD_STAIRS.get().defaultBlockState(), new String[] {
+				"facing",
+				"half",
+				"shape"
+			});
+		} else if (blockHasTag(block, "minecraft:wooden_slabs")) {
+			return copyProperty(block, SoulcataclysmModBlocks.SOUL_WOOD_SLAB.get().defaultBlockState(), "type");
+		} else if (blockHasTag(block, "forge:fences/wooden")) {
+			return copyProperties(block, SoulcataclysmModBlocks.SOUL_WOOD_FENCE.get().defaultBlockState(), new String[] {
+				"east", "north", "south", "west"
+			});
+		} else if (block.getBlock() == Blocks.COBBLESTONE) {
+			return SoulcataclysmModBlocks.SOUL_COBBLESTONE.get().defaultBlockState();
+		} else if (block.getBlock() == Blocks.MOSSY_COBBLESTONE) {
+			return SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE.get().defaultBlockState();
+		} else if (blockHasTag(block, "minecraft:flowers")) {
+			return SoulcataclysmModBlocks.SOUL_FLOWER.get().defaultBlockState();
+		} else if (block.getBlock() == Blocks.GRASS) {
+			return SoulcataclysmModBlocks.SOUL_GRASS.get().defaultBlockState();
+		} else if (block.getBlock() == Blocks.DIRT_PATH) {
+			return SoulcataclysmModBlocks.SOUL_DIRT_PATH.get().defaultBlockState();
 		}
 		return Blocks.AIR.defaultBlockState();
 	}
 
 	// Reputation System
-	private static Map<Item, double> cachedItemValues = new Map();
 	public static double getReputation(LevelAccessor world, Player player) {
 		return (player.getCapability(SoulcataclysmModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new SoulcataclysmModVariables.PlayerVariables())).reputation;
 	}
@@ -135,46 +229,11 @@ public class InfectionHandler {
 		});
 	}
 	public static double getItemValue(LevelAccessor world, Item item) {
-		double value = 0;
-		switch (item) {
-			case Items.DIAMOND:
-				value = 300;
-				break;
-			case Items.OBSIDIAN:
-				value = 300;
-				break;
-			case Items.EMERALD:
-				value = 200;
-				break;
-			case Items.ENCHANTED_GOLDEN_APPLE:
-				value = 500;
-				break;
-			case Items.GOLDEN_APPLE:
-				value = 350;
-				break;
-			default:
-				if (cachedItemValues.containsKey(item)) {
-					return cachedItemValues.get(item);
-				}
-				Stack<Recipe> recipes = world.getRecipeManager().getRecipes();
-				for (Recipe recipe : recipes) {
-					Item result = recipe.getResultItem(RegistryAccess.EMPTY).getItem();
-					boolean isItemResult = result == item;
-					NonNullList<Ingredient> ingredients = recipe.getIngredients();
-					for (Ingredient i : ingredients) {
-						for (ItemStack stack : i.getItems()) {
-							Item curItem = stack.getItem();
-							if (isItemResult) {
-								value += getItemValue(curItem);
-							} else if (curItem == item) {
-								value += 1;
-							}
-						}
-					}
-				}
-				cachedItemValues.set(item, value);
-				break;
+		if (itemHasTag(item, "soulcataclysm:positive_items")) {
+			return 10;
+		} else if (itemHasTag(item, "soulcataclysm:negative_items")) {
+			return -5;
 		}
-		return value;
+		return 1;
 	}
 }

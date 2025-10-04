@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "soulcataclysm:block/soul_planks",
+    "particle": "soulcataclysm:block/soul_planks"
+  },
+  "render_type": "solid"
+}

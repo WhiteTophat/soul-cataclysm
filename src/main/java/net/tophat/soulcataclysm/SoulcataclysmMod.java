@@ -3,6 +3,7 @@ package net.tophat.soulcataclysm;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.tophat.soulcataclysm.init.SoulcataclysmModTabs;
 import net.tophat.soulcataclysm.init.SoulcataclysmModItems;
 import net.tophat.soulcataclysm.init.SoulcataclysmModBlocks;
 
@@ -43,6 +44,8 @@ public class SoulcataclysmMod {
 		SoulcataclysmModBlocks.REGISTRY.register(bus);
 
 		SoulcataclysmModItems.REGISTRY.register(bus);
+
+		SoulcataclysmModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

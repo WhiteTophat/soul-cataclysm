@@ -1,22 +1,12 @@
 package net.tophat.soulcataclysm.procedures;
 
-import net.tophat.soulcataclysm.network.SoulcataclysmModVariables;
-
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.Entity;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.resources.ResourceLocation;
 
 public class DdfProcedure {
-	public static void execute(LevelAccessor world, Entity entity) {
-		if (entity == null)
-			return;
-		SoulcataclysmModVariables.WorldVariables.get(world).points = SoulcataclysmModVariables.WorldVariables.get(world).points;
-		SoulcataclysmModVariables.WorldVariables.get(world).syncData(world);
-		{
-			double _setval = (entity.getCapability(SoulcataclysmModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new SoulcataclysmModVariables.PlayerVariables())).reputation;
-			entity.getCapability(SoulcataclysmModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-				capability.reputation = _setval;
-				capability.syncPlayerVariables(entity);
-			});
-		}
+	public static boolean execute() {
+		return new ItemStack(Items.COCOA_BEANS).is(ItemTags.create(new ResourceLocation("minecraft:logs")));
 	}
 }

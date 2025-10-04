@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "soulcataclysm:block/soul_planks",
+    "bottom": "soulcataclysm:block/soul_planks",
+    "top": "soulcataclysm:block/soul_planks",
+    "side": "soulcataclysm:block/soul_planks"
+  },
+  "render_type": "solid"
+}

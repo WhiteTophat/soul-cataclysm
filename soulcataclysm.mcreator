@@ -51,7 +51,7 @@
     {
       "name": "InfectionHandler",
       "type": "code",
-      "compiles": false,
+      "compiles": true,
       "locked_code": true,
       "registry_name": "infection_handler",
       "metadata": {
@@ -116,15 +116,345 @@
         "files": [
           "src/main/java/net/tophat/soulcataclysm/procedures/DdfProcedure.java"
         ],
+        "dependencies": [],
+        "return_type": "logic"
+      }
+    },
+    {
+      "name": "SoulPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/block/SoulPlanksBlock.java",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_planks.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_planks.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_planks.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulBoneBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_bone_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_bone_block.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bone_block.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulBoneBlockBlock.java",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_bone_block.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_bone_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulBricksBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_bricks.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_bricks.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulStoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/block/SoulStoneBricksBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_stone_bricks.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_stone_bricks.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_stone_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "MossySoulStoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_soul_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/item/mossy_soul_stone_bricks.json",
+          "src/main/java/net/tophat/soulcataclysm/block/MossySoulStoneBricksBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/mossy_soul_stone_bricks.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/mossy_soul_stone_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedSoulStoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_soul_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/block/CrackedSoulStoneBricksBlock.java",
+          "src/main/resources/assets/soulcataclysm/blockstates/cracked_soul_stone_bricks.json",
+          "src/main/resources/assets/soulcataclysm/models/item/cracked_soul_stone_bricks.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/cracked_soul_stone_bricks.json",
+          "src/main/resources/assets/soulcataclysm/models/block/cracked_soul_stone_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledSoulStoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_soul_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/chiseled_soul_stone_bricks.json",
+          "src/main/resources/assets/soulcataclysm/models/item/chiseled_soul_stone_bricks.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/chiseled_soul_stone_bricks.json",
+          "src/main/resources/assets/soulcataclysm/models/block/chiseled_soul_stone_bricks.json",
+          "src/main/java/net/tophat/soulcataclysm/block/ChiseledSoulStoneBricksBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "EctoniumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ectonium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/ectonium_block.json",
+          "src/main/java/net/tophat/soulcataclysm/block/EctoniumBlockBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/ectonium_block.json",
+          "src/main/resources/assets/soulcataclysm/models/item/ectonium_block.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/ectonium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "EctoniumClump",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ectonium_clump",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/item/EctoniumClumpItem.java",
+          "src/main/resources/assets/soulcataclysm/models/item/ectonium_clump.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulCataclysmTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_cataclysm_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SoulWoodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_wood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_stairs_outer.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulWoodStairsBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_wood_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_stairs_inner.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_stairs.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_wood_stairs.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulWoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_wood_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_wood_slab.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulWoodSlabBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_wood_slab.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_slab_full.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_slab.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_slab_top.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulWoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_wood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_fence_post.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_wood_fence.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_wood_fence.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_fence.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_fence.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulWoodFenceBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_fence_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulWoodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_wood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_fence_gate_wall_open.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulWoodFenceGateBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_fence_gate_wall.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_wood_fence_gate.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_wood_fence_gate.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_fence_gate.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_fence_gate_open.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulCommunicatorOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soul_communicator_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/procedures/SoulCommunicatorOnBlockRightClickedProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "SoulCommunicator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_communicator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_communicator.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulCommunicatorBlock.java",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_communicator.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_communicator.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_communicator.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulCobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/block/SoulCobblestoneBlock.java",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_cobblestone.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_cobblestone.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_cobblestone.json"
+        ]
+      }
+    },
+    {
+      "name": "MossySoulCobblestone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_soul_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/mossy_soul_cobblestone.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/mossy_soul_cobblestone.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone.json",
+          "src/main/resources/assets/soulcataclysm/models/item/mossy_soul_cobblestone.json",
+          "src/main/java/net/tophat/soulcataclysm/block/MossySoulCobblestoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulFlower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_flower.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_flower.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_flower.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_flower.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulFlowerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SoulGrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_grass.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_grass.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_grass.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulGrassBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_grass.json"
+        ]
+      }
+    },
+    {
+      "name": "SoulDirtPath",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_dirt_path",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/item/soul_dirt_path.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_dirt_path.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_dirt_path.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulDirtPathBlock.java",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_dirt_path.json"
         ]
       }
     }
@@ -146,9 +476,24 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MossySoulCobblestone",
+      "~CUSTOM:SoulCobblestone",
+      "~CUSTOM:SoulCommunicator",
+      "~CUSTOM:EctoniumBlock",
+      "~CUSTOM:ChiseledSoulStoneBricks",
+      "~CUSTOM:CrackedSoulStoneBricks",
+      "~CUSTOM:MossySoulStoneBricks",
+      "~CUSTOM:SoulStoneBricks",
+      "~CUSTOM:SoulBricks",
+      "~CUSTOM:SoulBoneBlock",
       "~CUSTOM:SoulStone"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SoulWoodFenceGate",
+      "~CUSTOM:SoulWoodFence",
+      "~CUSTOM:SoulWoodSlab",
+      "~CUSTOM:SoulWoodStairs",
+      "~CUSTOM:SoulPlanks",
       "~CUSTOM:SoulLog"
     ],
     "BLOCKS:minecraft:mineable/hoe": [
@@ -158,19 +503,194 @@
       "CUSTOM:SoulLeaves",
       "CUSTOM:SoulDirt",
       "CUSTOM:SoulStone",
-      "CUSTOM:SoulLog"
+      "CUSTOM:SoulLog",
+      "CUSTOM:SoulPlanks",
+      "CUSTOM:SoulBoneBlock",
+      "CUSTOM:SoulBricks",
+      "CUSTOM:SoulStoneBricks",
+      "CUSTOM:MossySoulStoneBricks",
+      "CUSTOM:CrackedSoulStoneBricks",
+      "CUSTOM:ChiseledSoulStoneBricks",
+      "CUSTOM:EctoniumBlock",
+      "CUSTOM:SoulWoodStairs",
+      "CUSTOM:SoulWoodSlab",
+      "CUSTOM:SoulWoodFence",
+      "CUSTOM:SoulWoodFenceGate",
+      "CUSTOM:SoulCommunicator",
+      "CUSTOM:SoulCobblestone",
+      "CUSTOM:MossySoulCobblestone",
+      "CUSTOM:SoulFlower",
+      "CUSTOM:SoulGrass",
+      "CUSTOM:SoulDirtPath"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:SoulWoodSlab"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:SoulWoodFence"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:SoulDirtPath",
       "~CUSTOM:SoulDirt"
+    ],
+    "ITEMS:soulcataclysm:positive_items": [
+      "Blocks.DIAMOND_ORE",
+      "Blocks.DEEPSLATE_DIAMOND_ORE",
+      "Blocks.DIAMOND_BLOCK",
+      "Items.DIAMOND",
+      "Items.DIAMOND_SWORD",
+      "Items.DIAMOND_SHOVEL",
+      "Items.DIAMOND_PICKAXE",
+      "Items.DIAMOND_AXE",
+      "Items.DIAMOND_HOE",
+      "Items.DIAMOND_HELMET",
+      "Items.DIAMOND_CHESTPLATE",
+      "Items.DIAMOND_LEGGINGS",
+      "Items.DIAMOND_BOOTS",
+      "Items.DIAMOND_HORSE_ARMOR",
+      "Blocks.IRON_ORE",
+      "Blocks.DEEPSLATE_IRON_ORE",
+      "Blocks.RAW_IRON_BLOCK",
+      "Blocks.IRON_BLOCK",
+      "Blocks.IRON_DOOR",
+      "Blocks.IRON_TRAPDOOR",
+      "Blocks.IRON_BARS",
+      "Items.RAW_IRON",
+      "Items.IRON_INGOT",
+      "Items.IRON_NUGGET",
+      "Items.IRON_SWORD",
+      "Items.IRON_SHOVEL",
+      "Items.IRON_PICKAXE",
+      "Items.IRON_AXE",
+      "Items.IRON_HOE",
+      "Items.IRON_HELMET",
+      "Items.IRON_CHESTPLATE",
+      "Items.IRON_LEGGINGS",
+      "Items.IRON_BOOTS",
+      "Items.IRON_HORSE_ARMOR",
+      "Items.IRON_DOOR",
+      "Blocks.GOLD_ORE",
+      "Blocks.DEEPSLATE_GOLD_ORE",
+      "Blocks.NETHER_GOLD_ORE",
+      "Blocks.RAW_GOLD_BLOCK",
+      "Blocks.GOLD_BLOCK",
+      "Blocks.GOLDEN_RAIL",
+      "Items.RAW_GOLD",
+      "Items.GOLD_INGOT",
+      "Items.GOLD_NUGGET",
+      "Items.GOLDEN_SWORD",
+      "Items.GOLDEN_SHOVEL",
+      "Items.GOLDEN_PICKAXE",
+      "Items.GOLDEN_AXE",
+      "Items.GOLDEN_HOE",
+      "Items.GOLDEN_HELMET",
+      "Items.GOLDEN_CHESTPLATE",
+      "Items.GOLDEN_LEGGINGS",
+      "Items.GOLDEN_BOOTS",
+      "Items.GOLDEN_HORSE_ARMOR",
+      "Items.GOLDEN_APPLE#0",
+      "Items.GOLDEN_APPLE#1",
+      "Items.GOLDEN_CARROT",
+      "Blocks.EMERALD_ORE",
+      "Blocks.DEEPSLATE_EMERALD_ORE",
+      "Blocks.EMERALD_BLOCK",
+      "Items.EMERALD",
+      "Blocks.ENCHANTING_TABLE",
+      "Items.EXPERIENCE_BOTTLE",
+      "Items.ENCHANTED_BOOK",
+      "Blocks.COAL_ORE",
+      "Blocks.REDSTONE_ORE",
+      "Blocks.LIT_REDSTONE_ORE",
+      "Blocks.LAPIS_ORE",
+      "Blocks.COPPER_ORE",
+      "Blocks.DEEPSLATE_COAL_ORE",
+      "Blocks.DEEPSLATE_REDSTONE_ORE",
+      "Blocks.DEEPSLATE_LAPIS_ORE",
+      "Blocks.DEEPSLATE_COPPER_ORE",
+      "Blocks.QUARTZ_ORE",
+      "TAG:minecraft:armors",
+      "TAG:minecraft:tools",
+      "TAG:minecraft:ores"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:SoulWoodStairs"
+    ],
+    "ITEMS:soulcataclysm:negative_items": [
+      "Items.POISONOUS_POTATO",
+      "Items.SPIDER_EYE",
+      "Items.FERMENTED_SPIDER_EYE",
+      "Blocks.DIRT#0",
+      "Blocks.DIRT#1",
+      "Blocks.DIRT#2",
+      "Blocks.ROOTED_DIRT",
+      "Items.WHEAT_SEEDS",
+      "Items.PUMPKIN_SEEDS",
+      "Items.MELON_SEEDS",
+      "Items.BEETROOT_SEEDS",
+      "Blocks.SAPLING#0",
+      "Blocks.SAPLING#1",
+      "Blocks.SAPLING#2",
+      "Blocks.SAPLING#3",
+      "Blocks.SAPLING#4",
+      "Blocks.SAPLING#5",
+      "Blocks.MANGROVE_PROPAGULE",
+      "Blocks.CHERRY_SAPLING",
+      "Blocks.DEADBUSH",
+      "Blocks.DEAD_TUBE_CORAL_BLOCK",
+      "Blocks.DEAD_BRAIN_CORAL_BLOCK",
+      "Blocks.DEAD_BUBBLE_CORAL_BLOCK",
+      "Blocks.DEAD_FIRE_CORAL_BLOCK",
+      "Blocks.DEAD_HORN_CORAL_BLOCK",
+      "Blocks.DEAD_TUBE_CORAL",
+      "Blocks.DEAD_BRAIN_CORAL",
+      "Blocks.DEAD_BUBBLE_CORAL",
+      "Blocks.DEAD_FIRE_CORAL",
+      "Blocks.DEAD_HORN_CORAL",
+      "Blocks.DEAD_TUBE_CORAL_FAN",
+      "Blocks.DEAD_BRAIN_CORAL_FAN",
+      "Blocks.DEAD_BUBBLE_CORAL_FAN",
+      "Blocks.DEAD_FIRE_CORAL_FAN",
+      "Blocks.DEAD_HORN_CORAL_FAN",
+      "Blocks.SCULK_SENSOR",
+      "Blocks.CALIBRATED_SCULK_SENSOR",
+      "Blocks.SCULK",
+      "Blocks.SCULK_CATALYST",
+      "Blocks.SCULK_VEIN",
+      "Blocks.SCULK_SHRIEKER",
+      "CUSTOM:SoulDirt",
+      "CUSTOM:SoulStone",
+      "CUSTOM:SoulLog",
+      "CUSTOM:SoulLeaves",
+      "CUSTOM:SoulPlanks"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.soulcataclysm.soul_communicator": "Soul Communicator",
+      "block.soulcataclysm.soul_bone_block": "Soul Bone Block",
+      "block.soulcataclysm.soul_dirt_path": "Soul Dirt Path",
       "block.soulcataclysm.soul_leaves": "Soul Leaves",
-      "block.soulcataclysm.soul_stone": "Soul Stone",
+      "block.soulcataclysm.soul_planks": "Soul Planks",
+      "block.soulcataclysm.mossy_soul_stone_bricks": "Mossy Soul Stone Bricks",
+      "block.soulcataclysm.cracked_soul_stone_bricks": "Cracked Soul Stone Bricks",
+      "block.soulcataclysm.soul_cobblestone": "Soul Cobblestone",
+      "block.soulcataclysm.soul_bricks": "Soul Bricks",
+      "block.soulcataclysm.chiseled_soul_stone_bricks": "Chiseled Soul Stone Bricks",
+      "block.soulcataclysm.soul_grass": "Soul Grass",
       "block.soulcataclysm.soul_log": "Soul Log",
-      "block.soulcataclysm.soul_dirt": "Soul Dirt"
+      "block.soulcataclysm.soul_dirt": "Soul Dirt",
+      "block.soulcataclysm.mossy_soul_cobblestone": "Mossy Soul Cobblestone",
+      "block.soulcataclysm.soul_flower": "Soul Flower",
+      "block.soulcataclysm.soul_stone_bricks": "Soul Stone Bricks",
+      "block.soulcataclysm.ectonium_block": "Ectonium Block",
+      "block.soulcataclysm.soul_wood_slab": "Soul Wood Slab",
+      "item.soulcataclysm.ectonium_clump": "Ectonium Clump",
+      "block.soulcataclysm.soul_wood_fence_gate": "Soul Wood Fence Gate",
+      "block.soulcataclysm.soul_wood_fence": "Soul Wood Fence",
+      "block.soulcataclysm.soul_stone": "Soul Stone",
+      "block.soulcataclysm.soul_wood_stairs": "Soul Wood Stairs",
+      "item_group.soulcataclysm.soul_cataclysm_tab": "Soul Cataclysm"
     }
   },
   "foldersRoot": {
