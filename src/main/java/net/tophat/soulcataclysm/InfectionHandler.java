@@ -323,6 +323,7 @@ public class InfectionHandler {
 
 		} else if (blockHasTag(block, "forge:ores")) {
 			return SoulcataclysmModBlocks.ECTONIUM_ORE.get().defaultBlockState();
+			
 		}
 		return Blocks.AIR.defaultBlockState();
 	}
