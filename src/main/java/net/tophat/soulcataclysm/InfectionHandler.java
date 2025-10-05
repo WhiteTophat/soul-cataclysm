@@ -159,18 +159,31 @@ public class InfectionHandler {
 	public static BlockState infectBlock(BlockState block) {
 		if (blockHasTag(block, "minecraft:dirt")) {
 			return SoulcataclysmModBlocks.SOUL_DIRT.get().defaultBlockState();
+
 		} else if (blockHasTag(block, "minecraft:logs")) {
-			BlockState infected = SoulcataclysmModBlocks.SOUL_LOG.get().defaultBlockState();
+			BlockState infected = null;
+			if (blockHasTag(block, "soulcataclysm:stripped_logs")) {
+				infected = SoulcataclysmModBlocks.STRIPPED_SOUL_LOG.get().defaultBlockState();
+			} else if (blockHasTag(block, "soulcataclysm:log_wood")) {
+				infected = SoulcataclysmModBlocks.SOUL_WOOD.get().defaultBlockState();
+			} else if (blockHasTag(block, "soulcataclysm:stripped_wood")) {
+				infected = SoulcataclysmModBlocks.STRIPPED_SOUL_WOOD.get().defaultBlockState();
+			} else {
+				infected = SoulcataclysmModBlocks.SOUL_LOG.get().defaultBlockState();
+			}
 			Property<?> uninfectedProperty = block.getBlock().getStateDefinition().getProperty("axis");
 			Property<?> property = infected.getBlock().getStateDefinition().getProperty("axis");
 			if (property instanceof EnumProperty enumProperty && uninfectedProperty instanceof EnumProperty uninfEnumProperty) {
 				infected = infected.setValue(enumProperty, block.getValue(uninfEnumProperty));
 			}
 			return infected;
+
 		} else if (blockHasTag(block, "forge:stone")) {
 			return SoulcataclysmModBlocks.SOUL_STONE.get().defaultBlockState();
+
 		} else if (blockHasTag(block, "minecraft:leaves")) {
 			return SoulcataclysmModBlocks.SOUL_LEAVES.get().defaultBlockState();
+
 		} else if (blockHasTag(block, "minecraft:stone_bricks")) {
 			if (block.getBlock() == Blocks.MOSSY_STONE_BRICKS) {
 				return SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS.get().defaultBlockState();
@@ -180,6 +193,7 @@ public class InfectionHandler {
 				return SoulcataclysmModBlocks.CHISELED_SOUL_STONE_BRICKS.get().defaultBlockState();
 			}
 			return SoulcataclysmModBlocks.SOUL_STONE_BRICKS.get().defaultBlockState();
+
 		} else if (block.getBlock() == Blocks.BONE_BLOCK) {
 			BlockState infected = SoulcataclysmModBlocks.SOUL_BONE_BLOCK.get().defaultBlockState();
 			Property<?> uninfectedProperty = block.getBlock().getStateDefinition().getProperty("axis");
@@ -188,32 +202,112 @@ public class InfectionHandler {
 				infected = infected.setValue(enumProperty, block.getValue(uninfEnumProperty));
 			}
 			return infected;
+
 		} else if (block.getBlock() == Blocks.BRICKS) {
 			return SoulcataclysmModBlocks.SOUL_BRICKS.get().defaultBlockState();
+
 		} else if (blockHasTag(block, "minecraft:planks")) {
 			return SoulcataclysmModBlocks.SOUL_PLANKS.get().defaultBlockState();
+
 		} else if (blockHasTag(block, "minecraft:wooden_stairs")) {
 			return copyProperties(block, SoulcataclysmModBlocks.SOUL_WOOD_STAIRS.get().defaultBlockState(), new String[] {
 				"facing",
 				"half",
 				"shape"
 			});
+
 		} else if (blockHasTag(block, "minecraft:wooden_slabs")) {
 			return copyProperty(block, SoulcataclysmModBlocks.SOUL_WOOD_SLAB.get().defaultBlockState(), "type");
+
 		} else if (blockHasTag(block, "forge:fences/wooden")) {
 			return copyProperties(block, SoulcataclysmModBlocks.SOUL_WOOD_FENCE.get().defaultBlockState(), new String[] {
 				"east", "north", "south", "west"
 			});
+
 		} else if (block.getBlock() == Blocks.COBBLESTONE) {
 			return SoulcataclysmModBlocks.SOUL_COBBLESTONE.get().defaultBlockState();
+
 		} else if (block.getBlock() == Blocks.MOSSY_COBBLESTONE) {
 			return SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE.get().defaultBlockState();
+
 		} else if (blockHasTag(block, "minecraft:flowers")) {
 			return SoulcataclysmModBlocks.SOUL_FLOWER.get().defaultBlockState();
+
 		} else if (block.getBlock() == Blocks.GRASS) {
 			return SoulcataclysmModBlocks.SOUL_GRASS.get().defaultBlockState();
+
 		} else if (block.getBlock() == Blocks.DIRT_PATH) {
 			return SoulcataclysmModBlocks.SOUL_DIRT_PATH.get().defaultBlockState();
+
+		} else if (block.getBlock() == Blocks.FARMLAND) {
+			return SoulcataclysmModBlocks.SOUL_FARMLAND.get().defaultBlockState();
+
+		} else if (block.getBlock() == Blocks.STONE_BRICK_SLAB) {
+			return copyProperty(block, SoulcataclysmModBlocks.SOUL_STONE_BRICKS_SLAB.get().defaultBlockState(), "type");
+
+		} else if (block.getBlock() == Blocks.STONE_BRICK_STAIRS) {
+			return copyProperties(block, SoulcataclysmModBlocks.SOUL_STONE_BRICKS_STAIRS.get().defaultBlockState(), new String[] {
+				"facing",
+				"half",
+				"shape"
+			});
+
+		} else if (block.getBlock() == Blocks.STONE_BRICK_WALL) {
+			return SoulcataclysmModBlocks.SOUL_STONE_BRICKS_WALL.get().defaultBlockState();
+
+		} else if (block.getBlock() == Blocks.MOSSY_STONE_BRICK_SLAB) {
+			return copyProperty(block, SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS_SLAB.get().defaultBlockState(), "type");
+
+		} else if (block.getBlock() == Blocks.MOSSY_STONE_BRICK_STAIRS) {
+			return copyProperties(block, SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS_STAIRS.get().defaultBlockState(), new String[] {
+				"facing",
+				"half",
+				"shape"
+			});
+
+		} else if (block.getBlock() == Blocks.MOSSY_STONE_BRICK_WALL) {
+			return SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS_WALL.get().defaultBlockState();
+
+		} else if (block.getBlock() == Blocks.COBBLESTONE_SLAB) {
+			return copyProperty(block, SoulcataclysmModBlocks.SOUL_COBBLESTONE_SLAB.get().defaultBlockState(), "type");
+
+		} else if (block.getBlock() == Blocks.COBBLESTONE_STAIRS) {
+			return copyProperties(block, SoulcataclysmModBlocks.SOUL_COBBLESTONE_STAIRS.get().defaultBlockState(), new String[] {
+				"facing",
+				"half",
+				"shape"
+			});
+
+		} else if (block.getBlock() == Blocks.COBBLESTONE_WALL) {
+			return SoulcataclysmModBlocks.SOUL_COBBLESTONE_WALL.get().defaultBlockState();
+
+		} else if (block.getBlock() == Blocks.MOSSY_COBBLESTONE_SLAB) {
+			return copyProperty(block, SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_SLAB.get().defaultBlockState(), "type");
+		
+		} else if (block.getBlock() == Blocks.MOSSY_COBBLESTONE_STAIRS) {
+			return copyProperties(block, SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_STAIRS.get().defaultBlockState(), new String[] {
+				"facing",
+				"half",
+				"shape"
+			});
+
+		} else if (block.getBlock() == Blocks.MOSSY_COBBLESTONE_WALL) {
+			return SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_WALL.get().defaultBlockState();
+
+		} else if (block.getBlock() == Blocks.BRICK_SLAB) {
+			return copyProperty(block, SoulcataclysmModBlocks.SOUL_BRICKS_SLAB.get().defaultBlockState(), "type");
+		
+		} else if (block.getBlock() == Blocks.BRICK_STAIRS) {
+			return copyProperties(block, SoulcataclysmModBlocks.SOUL_BRICKS_STAIRS.get().defaultBlockState(), new String[] {
+				"facing",
+				"half",
+				"shape"
+			});
+
+		} else if (block.getBlock() == Blocks.TORCH) {
+			return Blocks.SOUL_TORCH.get().defaultBlockState();
+		} else if (block.getBlock() == Blocks.WALL_TORCH) {
+			return copyProperty(block, Blocks.SOUL_WALL_TORCH.get().defaultBlockState(), "facing");
 		}
 		return Blocks.AIR.defaultBlockState();
 	}

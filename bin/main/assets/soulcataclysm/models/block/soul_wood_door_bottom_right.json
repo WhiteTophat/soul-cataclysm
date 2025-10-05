@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right",
+  "textures": {
+    "particle": "soulcataclysm:block/soul_wood_door_bottom",
+    "bottom": "soulcataclysm:block/soul_wood_door_bottom",
+    "top": "soulcataclysm:block/soul_wood_door_top"
+  },
+  "render_type": "solid"
+}

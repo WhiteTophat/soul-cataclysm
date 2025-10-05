@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "soulcataclysm:block/soul_cobblestone",
+    "particle": "soulcataclysm:block/soul_cobblestone"
+  },
+  "render_type": "solid"
+}

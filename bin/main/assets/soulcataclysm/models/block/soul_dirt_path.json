@@ -1,13 +1,11 @@
 {
-  "parent": "block/cube",
+  "parent": "soulcataclysm:custom/dirtpath",
   "textures": {
-    "down": "soulcataclysm:block/soul_dirt",
-    "up": "soulcataclysm:block/soul_dirth_path_top",
-    "north": "soulcataclysm:block/soul_dirt_path_side",
-    "east": "soulcataclysm:block/soul_dirt_path_side",
-    "south": "soulcataclysm:block/soul_dirt_path_side",
-    "west": "soulcataclysm:block/soul_dirt_path_side",
-    "particle": "soulcataclysm:block/soul_dirt"
+    "all": "soulcataclysm:block/soul_dirt",
+    "particle": "soulcataclysm:block/soul_dirt",
+    "0": "soulcataclysm:block/soul_dirt_path_side",
+    "1": "soulcataclysm:block/soul_dirth_path_top",
+    "2": "soulcataclysm:block/soul_dirt"
   },
   "render_type": "solid"
 }

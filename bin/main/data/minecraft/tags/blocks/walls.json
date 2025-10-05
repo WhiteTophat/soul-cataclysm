@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "soulcataclysm:mossy_soul_cobblestone_wall",
+    "soulcataclysm:soul_cobblestone_wall",
+    "soulcataclysm:mossy_soul_stone_bricks_wall",
+    "soulcataclysm:soul_stone_bricks_wall",
+    "soulcataclysm:soul_bricks_wall"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulcataclysm:block/stripped_soul_log_side",
+    "up": "soulcataclysm:block/stripped_soul_log_side",
+    "north": "soulcataclysm:block/stripped_soul_log_side",
+    "east": "soulcataclysm:block/stripped_soul_log_side",
+    "south": "soulcataclysm:block/stripped_soul_log_side",
+    "west": "soulcataclysm:block/stripped_soul_log_side",
+    "particle": "soulcataclysm:block/stripped_soul_log_side"
+  },
+  "render_type": "solid"
+}

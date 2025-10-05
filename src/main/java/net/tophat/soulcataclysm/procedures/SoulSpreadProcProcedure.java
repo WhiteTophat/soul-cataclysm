@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 public class SoulSpreadProcProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof ServerLevelAccessor server) {
-			BlockPos decidedSpread = InfectionHandler.decideSpread(server.getLevel(), BlockPos.containing(x,y,z), 2);
+			BlockPos decidedSpread = InfectionHandler.decideSpread(server.getLevel(), BlockPos.containing(x,y,z), 3);
 			if (decidedSpread != null) {
 				BlockPos plantPos = BlockPos.containing(decidedSpread.getX(), decidedSpread.getY() + 1, decidedSpread.getZ());
 				if (InfectionHandler.isPlantBlock(world.getBlockState(plantPos))) {

@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "soulcataclysm:block/mossy_soul_stone_bricks",
+    "bottom": "soulcataclysm:block/mossy_soul_stone_bricks",
+    "top": "soulcataclysm:block/mossy_soul_stone_bricks",
+    "side": "soulcataclysm:block/mossy_soul_stone_bricks"
+  },
+  "render_type": "solid"
+}

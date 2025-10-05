@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "soul_dirt_path_side",
+        "1": "soul_dirth_path_top",
+        "2": "soul_dirt"
+      },
+      "name": "default"
+    },
+    "farmland": {
+      "map": {
+        "0": "soul_dirt",
+        "1": "soul_farmland",
+        "2": "soul_dirt"
+      },
+      "name": "farmland"
+    },
+    "farmlandmoist": {
+      "map": {
+        "0": "soul_dirt",
+        "1": "soul_farmland_moist",
+        "2": "soul_dirt"
+      },
+      "name": "farmlandmoist"
+    }
+  }
+}

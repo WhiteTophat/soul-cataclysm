@@ -1,0 +1,11 @@
+{
+  "parent": "soulcataclysm:custom/dirtpath",
+  "textures": {
+    "all": "soulcataclysm:block/soul_dirt",
+    "particle": "soulcataclysm:block/soul_dirt",
+    "0": "soulcataclysm:block/soul_dirt",
+    "1": "soulcataclysm:block/soul_farmland",
+    "2": "soulcataclysm:block/soul_dirt"
+  },
+  "render_type": "solid"
+}

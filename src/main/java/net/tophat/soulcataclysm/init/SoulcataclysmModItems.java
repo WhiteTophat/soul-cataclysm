@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 public class SoulcataclysmModItems {
@@ -40,10 +41,37 @@ public class SoulcataclysmModItems {
 	public static final RegistryObject<Item> SOUL_FLOWER = block(SoulcataclysmModBlocks.SOUL_FLOWER);
 	public static final RegistryObject<Item> SOUL_GRASS = block(SoulcataclysmModBlocks.SOUL_GRASS);
 	public static final RegistryObject<Item> SOUL_DIRT_PATH = block(SoulcataclysmModBlocks.SOUL_DIRT_PATH);
+	public static final RegistryObject<Item> STRIPPED_SOUL_LOG = block(SoulcataclysmModBlocks.STRIPPED_SOUL_LOG);
+	public static final RegistryObject<Item> SOUL_WOOD = block(SoulcataclysmModBlocks.SOUL_WOOD);
+	public static final RegistryObject<Item> STRIPPED_SOUL_WOOD = block(SoulcataclysmModBlocks.STRIPPED_SOUL_WOOD);
+	public static final RegistryObject<Item> SOUL_BRICKS_SLAB = block(SoulcataclysmModBlocks.SOUL_BRICKS_SLAB);
+	public static final RegistryObject<Item> SOUL_BRICKS_STAIRS = block(SoulcataclysmModBlocks.SOUL_BRICKS_STAIRS);
+	public static final RegistryObject<Item> SOUL_BRICKS_WALL = block(SoulcataclysmModBlocks.SOUL_BRICKS_WALL);
+	public static final RegistryObject<Item> SOUL_WOOD_DOOR = doubleBlock(SoulcataclysmModBlocks.SOUL_WOOD_DOOR);
+	public static final RegistryObject<Item> SOUL_WOOD_TRAPDOOR = block(SoulcataclysmModBlocks.SOUL_WOOD_TRAPDOOR);
+	public static final RegistryObject<Item> SOUL_WOOD_PRESSURE_PLATE = block(SoulcataclysmModBlocks.SOUL_WOOD_PRESSURE_PLATE);
+	public static final RegistryObject<Item> SOUL_WOOD_BUTTON = block(SoulcataclysmModBlocks.SOUL_WOOD_BUTTON);
+	public static final RegistryObject<Item> SOUL_STONE_BRICKS_SLAB = block(SoulcataclysmModBlocks.SOUL_STONE_BRICKS_SLAB);
+	public static final RegistryObject<Item> SOUL_STONE_BRICKS_STAIRS = block(SoulcataclysmModBlocks.SOUL_STONE_BRICKS_STAIRS);
+	public static final RegistryObject<Item> SOUL_STONE_BRICKS_WALL = block(SoulcataclysmModBlocks.SOUL_STONE_BRICKS_WALL);
+	public static final RegistryObject<Item> MOSSY_SOUL_STONE_BRICKS_SLAB = block(SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS_SLAB);
+	public static final RegistryObject<Item> MOSSY_SOUL_STONE_BRICKS_STAIRS = block(SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS_STAIRS);
+	public static final RegistryObject<Item> MOSSY_SOUL_STONE_BRICKS_WALL = block(SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS_WALL);
+	public static final RegistryObject<Item> SOUL_COBBLESTONE_STAIRS = block(SoulcataclysmModBlocks.SOUL_COBBLESTONE_STAIRS);
+	public static final RegistryObject<Item> SOUL_COBBLESTONE_SLAB = block(SoulcataclysmModBlocks.SOUL_COBBLESTONE_SLAB);
+	public static final RegistryObject<Item> SOUL_COBBLESTONE_WALL = block(SoulcataclysmModBlocks.SOUL_COBBLESTONE_WALL);
+	public static final RegistryObject<Item> MOSSY_SOUL_COBBLESTONE_SLAB = block(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_SLAB);
+	public static final RegistryObject<Item> MOSSY_SOUL_COBBLESTONE_STAIRS = block(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_STAIRS);
+	public static final RegistryObject<Item> MOSSY_SOUL_COBBLESTONE_WALL = block(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_WALL);
+	public static final RegistryObject<Item> SOUL_FARMLAND = block(SoulcataclysmModBlocks.SOUL_FARMLAND);
 
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

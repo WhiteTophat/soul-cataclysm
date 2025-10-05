@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "soulcataclysm:blocks/soul_wood_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soulcataclysm:soul_wood_door",
+          "conditions": [
+            {
+              "block": "soulcataclysm:soul_wood_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -14,7 +14,8 @@
           "src/main/java/net/tophat/soulcataclysm/block/SoulDirtBlock.java",
           "src/main/resources/assets/soulcataclysm/models/block/soul_dirt.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SoulStone",
@@ -30,7 +31,8 @@
           "src/main/java/net/tophat/soulcataclysm/block/SoulStoneBlock.java",
           "src/main/resources/assets/soulcataclysm/models/item/soul_stone.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Stone"
     },
     {
       "name": "SoulLog",
@@ -46,7 +48,8 @@
           "src/main/resources/assets/soulcataclysm/models/block/soul_log.json",
           "src/main/resources/assets/soulcataclysm/models/item/soul_log.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Log"
     },
     {
       "name": "InfectionHandler",
@@ -104,7 +107,8 @@
           "src/main/java/net/tophat/soulcataclysm/block/SoulLeavesBlock.java",
           "src/main/resources/assets/soulcataclysm/models/item/soul_leaves.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Ddf",
@@ -134,7 +138,8 @@
           "src/main/resources/assets/soulcataclysm/models/block/soul_planks.json",
           "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_planks.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Planks"
     },
     {
       "name": "SoulBoneBlock",
@@ -150,7 +155,8 @@
           "src/main/resources/assets/soulcataclysm/blockstates/soul_bone_block.json",
           "src/main/resources/assets/soulcataclysm/models/item/soul_bone_block.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SoulBricks",
@@ -166,7 +172,8 @@
           "src/main/resources/assets/soulcataclysm/blockstates/soul_bricks.json",
           "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_bricks.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "SoulStoneBricks",
@@ -182,7 +189,8 @@
           "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_stone_bricks.json",
           "src/main/resources/assets/soulcataclysm/blockstates/soul_stone_bricks.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Stone Bricks"
     },
     {
       "name": "MossySoulStoneBricks",
@@ -198,7 +206,8 @@
           "src/main/resources/assets/soulcataclysm/blockstates/mossy_soul_stone_bricks.json",
           "src/main/resources/data/soulcataclysm/loot_tables/blocks/mossy_soul_stone_bricks.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Stone Bricks/Mossy"
     },
     {
       "name": "CrackedSoulStoneBricks",
@@ -214,7 +223,8 @@
           "src/main/resources/data/soulcataclysm/loot_tables/blocks/cracked_soul_stone_bricks.json",
           "src/main/resources/assets/soulcataclysm/models/block/cracked_soul_stone_bricks.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Stone Bricks"
     },
     {
       "name": "ChiseledSoulStoneBricks",
@@ -230,7 +240,8 @@
           "src/main/resources/assets/soulcataclysm/models/block/chiseled_soul_stone_bricks.json",
           "src/main/java/net/tophat/soulcataclysm/block/ChiseledSoulStoneBricksBlock.java"
         ]
-      }
+      },
+      "path": "~/Blocks/Stone Bricks"
     },
     {
       "name": "EctoniumBlock",
@@ -246,7 +257,8 @@
           "src/main/resources/assets/soulcataclysm/models/item/ectonium_block.json",
           "src/main/resources/assets/soulcataclysm/blockstates/ectonium_block.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "EctoniumClump",
@@ -287,7 +299,8 @@
           "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_wood_stairs.json",
           "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_stairs.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Planks"
     },
     {
       "name": "SoulWoodSlab",
@@ -305,7 +318,8 @@
           "src/main/resources/assets/soulcataclysm/models/block/soul_wood_slab_top.json",
           "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_slab.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Planks"
     },
     {
       "name": "SoulWoodFence",
@@ -323,7 +337,8 @@
           "src/main/java/net/tophat/soulcataclysm/block/SoulWoodFenceBlock.java",
           "src/main/resources/assets/soulcataclysm/models/block/soul_wood_fence_inventory.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Planks"
     },
     {
       "name": "SoulWoodFenceGate",
@@ -342,7 +357,8 @@
           "src/main/resources/assets/soulcataclysm/models/block/soul_wood_fence_gate_open.json",
           "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_fence_gate.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Planks"
     },
     {
       "name": "SoulCommunicatorOnBlockRightClicked",
@@ -376,7 +392,8 @@
           "src/main/resources/assets/soulcataclysm/blockstates/soul_communicator.json",
           "src/main/resources/assets/soulcataclysm/models/item/soul_communicator.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SoulCobblestone",
@@ -392,7 +409,8 @@
           "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone.json",
           "src/main/resources/assets/soulcataclysm/models/item/soul_cobblestone.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Cobblestone"
     },
     {
       "name": "MossySoulCobblestone",
@@ -408,7 +426,8 @@
           "src/main/resources/assets/soulcataclysm/models/item/mossy_soul_cobblestone.json",
           "src/main/java/net/tophat/soulcataclysm/block/MossySoulCobblestoneBlock.java"
         ]
-      }
+      },
+      "path": "~/Blocks/Cobblestone/Mossy"
     },
     {
       "name": "SoulFlower",
@@ -424,7 +443,8 @@
           "src/main/resources/assets/soulcataclysm/models/item/soul_flower.json",
           "src/main/java/net/tophat/soulcataclysm/block/SoulFlowerBlock.java"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SoulGrass",
@@ -440,7 +460,8 @@
           "src/main/java/net/tophat/soulcataclysm/block/SoulGrassBlock.java",
           "src/main/resources/assets/soulcataclysm/models/block/soul_grass.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "SoulDirtPath",
@@ -456,7 +477,446 @@
           "src/main/java/net/tophat/soulcataclysm/block/SoulDirtPathBlock.java",
           "src/main/resources/assets/soulcataclysm/blockstates/soul_dirt_path.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "StrippedSoulLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_soul_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/stripped_soul_log.json",
+          "src/main/java/net/tophat/soulcataclysm/block/StrippedSoulLogBlock.java",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/stripped_soul_log.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/stripped_soul_log.json",
+          "src/main/resources/assets/soulcataclysm/models/item/stripped_soul_log.json"
+        ]
+      },
+      "path": "~/Blocks/Log"
+    },
+    {
+      "name": "SoulWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_wood.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_wood.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulWoodBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_wood.json"
+        ]
+      },
+      "path": "~/Blocks/Log"
+    },
+    {
+      "name": "StrippedSoulWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_soul_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/block/StrippedSoulWoodBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/stripped_soul_wood.json",
+          "src/main/resources/assets/soulcataclysm/models/block/stripped_soul_wood.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/stripped_soul_wood.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/stripped_soul_wood.json"
+        ]
+      },
+      "path": "~/Blocks/Log"
+    },
+    {
+      "name": "SoulBricksSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks_slab.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_bricks_slab.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_bricks_slab.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks_slab_top.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_bricks_slab.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulBricksSlabBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Bricks"
+    },
+    {
+      "name": "SoulBricksStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/block/SoulBricksStairsBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks_stairs_outer.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_bricks_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks_stairs_inner.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_bricks_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks_stairs.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_bricks_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Bricks"
+    },
+    {
+      "name": "SoulBricksWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_bricks_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks_wall_side_tall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks_wall_inventory.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulBricksWallBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks_wall_post.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_bricks_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_bricks_wall.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_bricks_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_bricks_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Bricks"
+    },
+    {
+      "name": "SoulWoodDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_wood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_door_bottom_left_open.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_door_top_right.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_wood_door.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_door_bottom_right.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_door_top_left.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_door_bottom_left.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_door_top_right_open.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_door_bottom_right_open.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulWoodDoorBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_wood_door.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_door.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_door_top_left_open.json"
+        ]
+      },
+      "path": "~/Blocks/Planks"
+    },
+    {
+      "name": "SoulWoodTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_wood_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/item/soul_wood_trapdoor.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_trapdoor.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulWoodTrapdoorBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_trapdoor_top.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_trapdoor.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_wood_trapdoor.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_trapdoor_open.json"
+        ]
+      },
+      "path": "~/Blocks/Planks"
+    },
+    {
+      "name": "SoulWoodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_wood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_pressure_plate_down.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_wood_pressure_plate.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_pressure_plate.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulWoodPressurePlateBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_wood_pressure_plate.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/Planks"
+    },
+    {
+      "name": "SoulWoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_wood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_button.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulWoodButtonBlock.java",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_wood_button.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_wood_button.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_button_pressed.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_wood_button_inventory.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_wood_button.json"
+        ]
+      },
+      "path": "~/Blocks/Planks"
+    },
+    {
+      "name": "SoulStoneBricksSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_stone_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks_slab_full.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulStoneBricksSlabBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks_slab.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks_slab_top.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_stone_bricks_slab.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_stone_bricks_slab.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_stone_bricks_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Stone Bricks"
+    },
+    {
+      "name": "SoulStoneBricksStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_stone_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/block/SoulStoneBricksStairsBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_stone_bricks_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks_stairs_inner.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_stone_bricks_stairs.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_stone_bricks_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks_stairs_outer.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Stone Bricks"
+    },
+    {
+      "name": "SoulStoneBricksWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_stone_bricks_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_stone_bricks_wall.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_stone_bricks_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_stone_bricks_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks_wall_side_tall.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulStoneBricksWallBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks_wall_post.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_stone_bricks_wall_inventory.json"
+        ]
+      },
+      "path": "~/Blocks/Stone Bricks"
+    },
+    {
+      "name": "MossySoulStoneBricksSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_soul_stone_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks_slab_top.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks_slab_full.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/mossy_soul_stone_bricks_slab.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/mossy_soul_stone_bricks_slab.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks_slab.json",
+          "src/main/java/net/tophat/soulcataclysm/block/MossySoulStoneBricksSlabBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/item/mossy_soul_stone_bricks_slab.json"
+        ]
+      },
+      "path": "~/Blocks/Stone Bricks/Mossy"
+    },
+    {
+      "name": "MossySoulStoneBricksStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_soul_stone_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/item/mossy_soul_stone_bricks_stairs.json",
+          "src/main/java/net/tophat/soulcataclysm/block/MossySoulStoneBricksStairsBlock.java",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/mossy_soul_stone_bricks_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks_stairs_inner.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks_stairs.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/mossy_soul_stone_bricks_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Stone Bricks/Mossy"
+    },
+    {
+      "name": "MossySoulStoneBricksWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_soul_stone_bricks_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/blockstates/mossy_soul_stone_bricks_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/item/mossy_soul_stone_bricks_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks_wall_inventory.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks_wall_side_tall.json",
+          "src/main/java/net/tophat/soulcataclysm/block/MossySoulStoneBricksWallBlock.java",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/mossy_soul_stone_bricks_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_stone_bricks_wall_post.json"
+        ]
+      },
+      "path": "~/Blocks/Stone Bricks/Mossy"
+    },
+    {
+      "name": "SoulCobblestoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_cobblestone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/block/SoulCobblestoneStairsBlock.java",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_cobblestone_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone_stairs_inner.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_cobblestone_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone_stairs_outer.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_cobblestone_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Cobblestone"
+    },
+    {
+      "name": "SoulCobblestoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_cobblestone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_cobblestone_slab.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulCobblestoneSlabBlock.java",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_cobblestone_slab.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_cobblestone_slab.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone_slab.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone_slab_top.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Cobblestone"
+    },
+    {
+      "name": "SoulCobblestoneWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_cobblestone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/item/soul_cobblestone_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone_wall_inventory.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_cobblestone_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone_wall_post.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulCobblestoneWallBlock.java",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_cobblestone_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_cobblestone_wall_side_tall.json"
+        ]
+      },
+      "path": "~/Blocks/Cobblestone"
+    },
+    {
+      "name": "MossySoulCobblestoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_soul_cobblestone_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/mossy_soul_cobblestone_slab.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/mossy_soul_cobblestone_slab.json",
+          "src/main/resources/assets/soulcataclysm/models/item/mossy_soul_cobblestone_slab.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone_slab_top.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone_slab_full.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone_slab.json",
+          "src/main/java/net/tophat/soulcataclysm/block/MossySoulCobblestoneSlabBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Cobblestone/Mossy"
+    },
+    {
+      "name": "MossySoulCobblestoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_soul_cobblestone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/item/mossy_soul_cobblestone_stairs.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone_stairs.json",
+          "src/main/java/net/tophat/soulcataclysm/block/MossySoulCobblestoneStairsBlock.java",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone_stairs_inner.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone_stairs_outer.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/mossy_soul_cobblestone_stairs.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/mossy_soul_cobblestone_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Cobblestone/Mossy"
+    },
+    {
+      "name": "MossySoulCobblestoneWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_soul_cobblestone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone_wall.json",
+          "src/main/java/net/tophat/soulcataclysm/block/MossySoulCobblestoneWallBlock.java",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/mossy_soul_cobblestone_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone_wall_side_tall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone_wall_inventory.json",
+          "src/main/resources/assets/soulcataclysm/models/item/mossy_soul_cobblestone_wall.json",
+          "src/main/resources/assets/soulcataclysm/models/block/mossy_soul_cobblestone_wall_post.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/mossy_soul_cobblestone_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Cobblestone/Mossy"
+    },
+    {
+      "name": "SoulFarmland",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_farmland",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_farmland.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_farmland.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_farmland.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_farmland.json",
+          "src/main/java/net/tophat/soulcataclysm/block/SoulFarmlandBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -475,29 +935,15 @@
   ],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:MossySoulCobblestone",
-      "~CUSTOM:SoulCobblestone",
-      "~CUSTOM:SoulCommunicator",
-      "~CUSTOM:EctoniumBlock",
-      "~CUSTOM:ChiseledSoulStoneBricks",
-      "~CUSTOM:CrackedSoulStoneBricks",
-      "~CUSTOM:MossySoulStoneBricks",
-      "~CUSTOM:SoulStoneBricks",
-      "~CUSTOM:SoulBricks",
-      "~CUSTOM:SoulBoneBlock",
-      "~CUSTOM:SoulStone"
-    ],
-    "BLOCKS:minecraft:mineable/axe": [
-      "~CUSTOM:SoulWoodFenceGate",
-      "~CUSTOM:SoulWoodFence",
-      "~CUSTOM:SoulWoodSlab",
-      "~CUSTOM:SoulWoodStairs",
-      "~CUSTOM:SoulPlanks",
-      "~CUSTOM:SoulLog"
-    ],
-    "BLOCKS:minecraft:mineable/hoe": [
-      "~CUSTOM:SoulLeaves"
+    "BLOCKS:soulcataclysm:log_wood": [
+      "Blocks.OAK_WOOD",
+      "Blocks.SPRUCE_WOOD",
+      "Blocks.BIRCH_WOOD",
+      "Blocks.JUNGLE_WOOD",
+      "Blocks.ACACIA_WOOD",
+      "Blocks.DARK_OAK_WOOD",
+      "Blocks.MANGROVE_WOOD",
+      "Blocks.CHERRY_WOOD"
     ],
     "BLOCKS:soulcataclysm:infected": [
       "CUSTOM:SoulLeaves",
@@ -521,17 +967,33 @@
       "CUSTOM:MossySoulCobblestone",
       "CUSTOM:SoulFlower",
       "CUSTOM:SoulGrass",
-      "CUSTOM:SoulDirtPath"
+      "CUSTOM:SoulDirtPath",
+      "CUSTOM:StrippedSoulLog",
+      "CUSTOM:SoulWood",
+      "CUSTOM:StrippedSoulWood",
+      "CUSTOM:SoulBricksSlab",
+      "CUSTOM:SoulBricksStairs",
+      "CUSTOM:SoulBricksWall",
+      "CUSTOM:SoulWoodDoor",
+      "CUSTOM:SoulWoodTrapdoor",
+      "CUSTOM:SoulWoodPressurePlate",
+      "CUSTOM:SoulWoodButton",
+      "CUSTOM:SoulStoneBricksSlab",
+      "CUSTOM:SoulStoneBricksStairs",
+      "CUSTOM:SoulStoneBricksWall",
+      "CUSTOM:MossySoulStoneBricksSlab",
+      "CUSTOM:MossySoulStoneBricksStairs",
+      "CUSTOM:MossySoulStoneBricksWall",
+      "CUSTOM:SoulCobblestoneStairs",
+      "CUSTOM:SoulCobblestoneSlab",
+      "CUSTOM:SoulCobblestoneWall",
+      "CUSTOM:MossySoulCobblestoneSlab",
+      "CUSTOM:MossySoulCobblestoneStairs",
+      "CUSTOM:MossySoulCobblestoneWall",
+      "CUSTOM:SoulFarmland"
     ],
-    "BLOCKS:minecraft:slabs": [
-      "~CUSTOM:SoulWoodSlab"
-    ],
-    "BLOCKS:minecraft:fences": [
-      "~CUSTOM:SoulWoodFence"
-    ],
-    "BLOCKS:minecraft:mineable/shovel": [
-      "~CUSTOM:SoulDirtPath",
-      "~CUSTOM:SoulDirt"
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:SoulLeaves"
     ],
     "ITEMS:soulcataclysm:positive_items": [
       "Blocks.DIAMOND_ORE",
@@ -612,9 +1074,6 @@
       "TAG:minecraft:tools",
       "TAG:minecraft:ores"
     ],
-    "BLOCKS:minecraft:stairs": [
-      "~CUSTOM:SoulWoodStairs"
-    ],
     "ITEMS:soulcataclysm:negative_items": [
       "Items.POISONOUS_POTATO",
       "Items.SPIDER_EYE",
@@ -662,6 +1121,101 @@
       "CUSTOM:SoulLog",
       "CUSTOM:SoulLeaves",
       "CUSTOM:SoulPlanks"
+    ],
+    "BLOCKS:soulcataclysm:stripped_logs": [
+      "Blocks.STRIPPED_OAK_LOG",
+      "Blocks.STRIPPED_SPRUCE_LOG",
+      "Blocks.STRIPPED_BIRCH_LOG",
+      "Blocks.STRIPPED_JUNGLE_LOG",
+      "Blocks.STRIPPED_ACACIA_LOG",
+      "Blocks.STRIPPED_DARK_OAK_LOG",
+      "Blocks.STRIPPED_WARPED_STEM",
+      "Blocks.STRIPPED_CRIMSON_STEM",
+      "Blocks.STRIPPED_MANGROVE_LOG",
+      "Blocks.STRIPPED_CHERRY_LOG"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SoulWoodButton",
+      "~CUSTOM:SoulWoodPressurePlate",
+      "~CUSTOM:SoulWoodTrapdoor",
+      "~CUSTOM:SoulWoodDoor",
+      "~CUSTOM:StrippedSoulWood",
+      "~CUSTOM:SoulWood",
+      "~CUSTOM:StrippedSoulLog",
+      "~CUSTOM:SoulWoodFenceGate",
+      "~CUSTOM:SoulWoodFence",
+      "~CUSTOM:SoulWoodSlab",
+      "~CUSTOM:SoulWoodStairs",
+      "~CUSTOM:SoulPlanks",
+      "~CUSTOM:SoulLog"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MossySoulCobblestoneWall",
+      "~CUSTOM:MossySoulCobblestoneStairs",
+      "~CUSTOM:MossySoulCobblestoneSlab",
+      "~CUSTOM:SoulCobblestoneWall",
+      "~CUSTOM:SoulCobblestoneSlab",
+      "~CUSTOM:SoulCobblestoneStairs",
+      "~CUSTOM:MossySoulStoneBricksWall",
+      "~CUSTOM:MossySoulStoneBricksStairs",
+      "~CUSTOM:MossySoulStoneBricksSlab",
+      "~CUSTOM:SoulStoneBricksWall",
+      "~CUSTOM:SoulStoneBricksStairs",
+      "~CUSTOM:SoulStoneBricksSlab",
+      "~CUSTOM:SoulBricksWall",
+      "~CUSTOM:SoulBricksStairs",
+      "~CUSTOM:SoulBricksSlab",
+      "~CUSTOM:MossySoulCobblestone",
+      "~CUSTOM:SoulCobblestone",
+      "~CUSTOM:SoulCommunicator",
+      "~CUSTOM:EctoniumBlock",
+      "~CUSTOM:ChiseledSoulStoneBricks",
+      "~CUSTOM:CrackedSoulStoneBricks",
+      "~CUSTOM:MossySoulStoneBricks",
+      "~CUSTOM:SoulStoneBricks",
+      "~CUSTOM:SoulBricks",
+      "~CUSTOM:SoulBoneBlock",
+      "~CUSTOM:SoulStone"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MossySoulCobblestoneSlab",
+      "~CUSTOM:SoulCobblestoneSlab",
+      "~CUSTOM:MossySoulStoneBricksSlab",
+      "~CUSTOM:SoulStoneBricksSlab",
+      "~CUSTOM:SoulBricksSlab",
+      "~CUSTOM:SoulWoodSlab"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:SoulWoodFence"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:SoulDirtPath",
+      "~CUSTOM:SoulDirt"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:MossySoulCobblestoneWall",
+      "~CUSTOM:SoulCobblestoneWall",
+      "~CUSTOM:MossySoulStoneBricksWall",
+      "~CUSTOM:SoulStoneBricksWall",
+      "~CUSTOM:SoulBricksWall"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MossySoulCobblestoneStairs",
+      "~CUSTOM:SoulCobblestoneStairs",
+      "~CUSTOM:MossySoulStoneBricksStairs",
+      "~CUSTOM:SoulStoneBricksStairs",
+      "~CUSTOM:SoulBricksStairs",
+      "~CUSTOM:SoulWoodStairs"
+    ],
+    "BLOCKS:soulcataclysm:stripped_wood": [
+      "Blocks.STRIPPED_OAK_WOOD",
+      "Blocks.STRIPPED_SPRUCE_WOOD",
+      "Blocks.STRIPPED_BIRCH_WOOD",
+      "Blocks.STRIPPED_JUNGLE_WOOD",
+      "Blocks.STRIPPED_ACACIA_WOOD",
+      "Blocks.STRIPPED_DARK_OAK_WOOD",
+      "Blocks.STRIPPED_MANGROVE_WOOD",
+      "Blocks.STRIPPED_CHERRY_WOOD"
     ]
   },
   "tab_element_order": {},
@@ -669,33 +1223,96 @@
     "en_us": {
       "block.soulcataclysm.soul_communicator": "Soul Communicator",
       "block.soulcataclysm.soul_bone_block": "Soul Bone Block",
+      "block.soulcataclysm.mossy_soul_stone_bricks_slab": "Mossy Soul Stone Bricks Slab",
       "block.soulcataclysm.soul_dirt_path": "Soul Dirt Path",
+      "block.soulcataclysm.soul_bricks_stairs": "Soul Bricks Stairs",
       "block.soulcataclysm.soul_leaves": "Soul Leaves",
+      "block.soulcataclysm.soul_wood_button": "Soul Wood Button",
+      "block.soulcataclysm.soul_stone_bricks_wall": "Soul Stone Bricks Wall",
+      "block.soulcataclysm.soul_wood_pressure_plate": "Soul Wood Pressure Plate",
+      "block.soulcataclysm.soul_wood_trapdoor": "Soul Wood Trapdoor",
+      "block.soulcataclysm.mossy_soul_stone_bricks_stairs": "Mossy Soul Stone Bricks Stairs",
       "block.soulcataclysm.soul_planks": "Soul Planks",
       "block.soulcataclysm.mossy_soul_stone_bricks": "Mossy Soul Stone Bricks",
       "block.soulcataclysm.cracked_soul_stone_bricks": "Cracked Soul Stone Bricks",
+      "block.soulcataclysm.soul_bricks_slab": "Soul Bricks Slab",
       "block.soulcataclysm.soul_cobblestone": "Soul Cobblestone",
+      "block.soulcataclysm.soul_cobblestone_stairs": "Soul Cobblestone Stairs",
+      "block.soulcataclysm.mossy_soul_cobblestone_stairs": "Mossy Soul Cobblestone Stairs",
       "block.soulcataclysm.soul_bricks": "Soul Bricks",
+      "block.soulcataclysm.mossy_soul_stone_bricks_wall": "Mossy Soul Stone Bricks Wall",
       "block.soulcataclysm.chiseled_soul_stone_bricks": "Chiseled Soul Stone Bricks",
+      "block.soulcataclysm.soul_stone_bricks_slab": "Soul Stone Bricks Slab",
       "block.soulcataclysm.soul_grass": "Soul Grass",
+      "block.soulcataclysm.soul_stone_bricks_stairs": "Soul Stone Bricks Stairs",
       "block.soulcataclysm.soul_log": "Soul Log",
+      "block.soulcataclysm.stripped_soul_wood": "Stripped Soul Wood",
+      "block.soulcataclysm.soul_wood_door": "Soul Wood Door",
       "block.soulcataclysm.soul_dirt": "Soul Dirt",
+      "block.soulcataclysm.mossy_soul_cobblestone_wall": "Mossy Soul Cobblestone Wall",
+      "block.soulcataclysm.soul_farmland": "Soul Farmland",
+      "block.soulcataclysm.soul_cobblestone_wall": "Soul Cobblestone Wall",
+      "block.soulcataclysm.stripped_soul_log": "Stripped Soul Log",
       "block.soulcataclysm.mossy_soul_cobblestone": "Mossy Soul Cobblestone",
       "block.soulcataclysm.soul_flower": "Soul Flower",
       "block.soulcataclysm.soul_stone_bricks": "Soul Stone Bricks",
+      "block.soulcataclysm.mossy_soul_cobblestone_slab": "Mossy Soul Cobblestone Slab",
       "block.soulcataclysm.ectonium_block": "Ectonium Block",
+      "block.soulcataclysm.soul_wood": "Soul Wood",
       "block.soulcataclysm.soul_wood_slab": "Soul Wood Slab",
+      "block.soulcataclysm.soul_cobblestone_slab": "Soul Cobblestone Slab",
       "item.soulcataclysm.ectonium_clump": "Ectonium Clump",
       "block.soulcataclysm.soul_wood_fence_gate": "Soul Wood Fence Gate",
       "block.soulcataclysm.soul_wood_fence": "Soul Wood Fence",
       "block.soulcataclysm.soul_stone": "Soul Stone",
       "block.soulcataclysm.soul_wood_stairs": "Soul Wood Stairs",
-      "item_group.soulcataclysm.soul_cataclysm_tab": "Soul Cataclysm"
+      "item_group.soulcataclysm.soul_cataclysm_tab": "Soul Cataclysm",
+      "block.soulcataclysm.soul_bricks_wall": "Soul Bricks Wall"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Log",
+            "children": []
+          },
+          {
+            "name": "Stone",
+            "children": []
+          },
+          {
+            "name": "Planks",
+            "children": []
+          },
+          {
+            "name": "Bricks",
+            "children": []
+          },
+          {
+            "name": "Stone Bricks",
+            "children": [
+              {
+                "name": "Mossy",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Cobblestone",
+            "children": [
+              {
+                "name": "Mossy",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "soulcataclysm",

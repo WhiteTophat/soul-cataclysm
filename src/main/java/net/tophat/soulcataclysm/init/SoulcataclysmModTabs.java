@@ -41,5 +41,27 @@ public class SoulcataclysmModTabs {
 				tabData.accept(SoulcataclysmModBlocks.SOUL_FLOWER.get().asItem());
 				tabData.accept(SoulcataclysmModBlocks.SOUL_GRASS.get().asItem());
 				tabData.accept(SoulcataclysmModBlocks.SOUL_DIRT_PATH.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.STRIPPED_SOUL_LOG.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_WOOD.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.STRIPPED_SOUL_WOOD.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_BRICKS_SLAB.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_BRICKS_STAIRS.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_BRICKS_WALL.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_WOOD_DOOR.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_WOOD_TRAPDOOR.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_WOOD_PRESSURE_PLATE.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_WOOD_BUTTON.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_STONE_BRICKS_SLAB.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_STONE_BRICKS_STAIRS.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_STONE_BRICKS_WALL.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS_SLAB.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS_STAIRS.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.MOSSY_SOUL_STONE_BRICKS_WALL.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_COBBLESTONE_STAIRS.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_COBBLESTONE_SLAB.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_COBBLESTONE_WALL.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_SLAB.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_STAIRS.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_WALL.get().asItem());
 			}).build());
 }

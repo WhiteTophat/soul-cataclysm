@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
+    "soulcataclysm:soul_wood_button",
+    "soulcataclysm:soul_wood_pressure_plate",
+    "soulcataclysm:soul_wood_trapdoor",
+    "soulcataclysm:soul_wood_door",
+    "soulcataclysm:stripped_soul_wood",
+    "soulcataclysm:soul_wood",
+    "soulcataclysm:stripped_soul_log",
     "soulcataclysm:soul_wood_fence_gate",
     "soulcataclysm:soul_wood_fence",
     "soulcataclysm:soul_wood_slab",

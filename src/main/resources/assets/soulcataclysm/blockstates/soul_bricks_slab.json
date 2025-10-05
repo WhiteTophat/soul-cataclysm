@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "soulcataclysm:block/soul_bricks_slab"
+    },
+    "type=top": {
+      "model": "soulcataclysm:block/soul_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "soulcataclysm:block/soul_bricks_slab_full"
+    }
+  }
+}

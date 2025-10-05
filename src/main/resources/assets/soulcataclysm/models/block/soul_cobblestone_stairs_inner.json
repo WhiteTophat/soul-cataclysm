@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "soulcataclysm:block/soul_cobblestone",
+    "bottom": "soulcataclysm:block/soul_cobblestone",
+    "top": "soulcataclysm:block/soul_cobblestone",
+    "side": "soulcataclysm:block/soul_cobblestone"
+  },
+  "render_type": "solid"
+}

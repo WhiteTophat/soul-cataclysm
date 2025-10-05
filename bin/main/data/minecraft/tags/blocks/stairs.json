@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
+    "soulcataclysm:mossy_soul_cobblestone_stairs",
+    "soulcataclysm:soul_cobblestone_stairs",
+    "soulcataclysm:mossy_soul_stone_bricks_stairs",
+    "soulcataclysm:soul_stone_bricks_stairs",
+    "soulcataclysm:soul_bricks_stairs",
     "soulcataclysm:soul_wood_stairs"
   ]
 }
