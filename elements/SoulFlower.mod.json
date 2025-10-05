@@ -97,6 +97,12 @@
     "canBePlacedOn": [
       {
         "value": "CUSTOM:SoulDirt"
+      },
+      {
+        "value": "CUSTOM:SoulDirtPath"
+      },
+      {
+        "value": "CUSTOM:SoulGrassBlock"
       }
     ],
     "isBonemealable": false,

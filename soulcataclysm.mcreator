@@ -917,6 +917,40 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "SoulGrassBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_grass_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/tophat/soulcataclysm/block/SoulGrassBlockBlock.java",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/soul_grass_block.json",
+          "src/main/resources/assets/soulcataclysm/models/item/soul_grass_block.json",
+          "src/main/resources/assets/soulcataclysm/blockstates/soul_grass_block.json",
+          "src/main/resources/assets/soulcataclysm/models/block/soul_grass_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "EctoniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ectonium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soulcataclysm/models/block/ectonium_ore.json",
+          "src/main/resources/assets/soulcataclysm/models/item/ectonium_ore.json",
+          "src/main/resources/data/soulcataclysm/loot_tables/blocks/ectonium_ore.json",
+          "src/main/java/net/tophat/soulcataclysm/block/EctoniumOreBlock.java",
+          "src/main/resources/assets/soulcataclysm/blockstates/ectonium_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Stone"
     }
   ],
   "variable_elements": [
@@ -944,6 +978,9 @@
       "Blocks.DARK_OAK_WOOD",
       "Blocks.MANGROVE_WOOD",
       "Blocks.CHERRY_WOOD"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:EctoniumOre"
     ],
     "BLOCKS:soulcataclysm:infected": [
       "CUSTOM:SoulLeaves",
@@ -1150,6 +1187,7 @@
       "~CUSTOM:SoulLog"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EctoniumOre",
       "~CUSTOM:MossySoulCobblestoneWall",
       "~CUSTOM:MossySoulCobblestoneStairs",
       "~CUSTOM:MossySoulCobblestoneSlab",
@@ -1189,6 +1227,7 @@
       "~CUSTOM:SoulWoodFence"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:SoulGrassBlock",
       "~CUSTOM:SoulDirtPath",
       "~CUSTOM:SoulDirt"
     ],
@@ -1221,51 +1260,53 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.soulcataclysm.soul_communicator": "Soul Communicator",
       "block.soulcataclysm.soul_bone_block": "Soul Bone Block",
-      "block.soulcataclysm.mossy_soul_stone_bricks_slab": "Mossy Soul Stone Bricks Slab",
       "block.soulcataclysm.soul_dirt_path": "Soul Dirt Path",
       "block.soulcataclysm.soul_bricks_stairs": "Soul Bricks Stairs",
       "block.soulcataclysm.soul_leaves": "Soul Leaves",
       "block.soulcataclysm.soul_wood_button": "Soul Wood Button",
       "block.soulcataclysm.soul_stone_bricks_wall": "Soul Stone Bricks Wall",
       "block.soulcataclysm.soul_wood_pressure_plate": "Soul Wood Pressure Plate",
-      "block.soulcataclysm.soul_wood_trapdoor": "Soul Wood Trapdoor",
-      "block.soulcataclysm.mossy_soul_stone_bricks_stairs": "Mossy Soul Stone Bricks Stairs",
       "block.soulcataclysm.soul_planks": "Soul Planks",
       "block.soulcataclysm.mossy_soul_stone_bricks": "Mossy Soul Stone Bricks",
-      "block.soulcataclysm.cracked_soul_stone_bricks": "Cracked Soul Stone Bricks",
-      "block.soulcataclysm.soul_bricks_slab": "Soul Bricks Slab",
-      "block.soulcataclysm.soul_cobblestone": "Soul Cobblestone",
       "block.soulcataclysm.soul_cobblestone_stairs": "Soul Cobblestone Stairs",
       "block.soulcataclysm.mossy_soul_cobblestone_stairs": "Mossy Soul Cobblestone Stairs",
       "block.soulcataclysm.soul_bricks": "Soul Bricks",
-      "block.soulcataclysm.mossy_soul_stone_bricks_wall": "Mossy Soul Stone Bricks Wall",
       "block.soulcataclysm.chiseled_soul_stone_bricks": "Chiseled Soul Stone Bricks",
       "block.soulcataclysm.soul_stone_bricks_slab": "Soul Stone Bricks Slab",
       "block.soulcataclysm.soul_grass": "Soul Grass",
-      "block.soulcataclysm.soul_stone_bricks_stairs": "Soul Stone Bricks Stairs",
       "block.soulcataclysm.soul_log": "Soul Log",
       "block.soulcataclysm.stripped_soul_wood": "Stripped Soul Wood",
-      "block.soulcataclysm.soul_wood_door": "Soul Wood Door",
-      "block.soulcataclysm.soul_dirt": "Soul Dirt",
-      "block.soulcataclysm.mossy_soul_cobblestone_wall": "Mossy Soul Cobblestone Wall",
-      "block.soulcataclysm.soul_farmland": "Soul Farmland",
       "block.soulcataclysm.soul_cobblestone_wall": "Soul Cobblestone Wall",
       "block.soulcataclysm.stripped_soul_log": "Stripped Soul Log",
-      "block.soulcataclysm.mossy_soul_cobblestone": "Mossy Soul Cobblestone",
       "block.soulcataclysm.soul_flower": "Soul Flower",
       "block.soulcataclysm.soul_stone_bricks": "Soul Stone Bricks",
       "block.soulcataclysm.mossy_soul_cobblestone_slab": "Mossy Soul Cobblestone Slab",
+      "block.soulcataclysm.soul_grass_block": "Soul Grass Block",
       "block.soulcataclysm.ectonium_block": "Ectonium Block",
-      "block.soulcataclysm.soul_wood": "Soul Wood",
-      "block.soulcataclysm.soul_wood_slab": "Soul Wood Slab",
       "block.soulcataclysm.soul_cobblestone_slab": "Soul Cobblestone Slab",
       "item.soulcataclysm.ectonium_clump": "Ectonium Clump",
       "block.soulcataclysm.soul_wood_fence_gate": "Soul Wood Fence Gate",
       "block.soulcataclysm.soul_wood_fence": "Soul Wood Fence",
-      "block.soulcataclysm.soul_stone": "Soul Stone",
       "block.soulcataclysm.soul_wood_stairs": "Soul Wood Stairs",
+      "block.soulcataclysm.soul_communicator": "Soul Communicator",
+      "block.soulcataclysm.mossy_soul_stone_bricks_slab": "Mossy Soul Stone Bricks Slab",
+      "block.soulcataclysm.ectonium_ore": "Ectonium Ore",
+      "block.soulcataclysm.soul_wood_trapdoor": "Soul Wood Trapdoor",
+      "block.soulcataclysm.mossy_soul_stone_bricks_stairs": "Mossy Soul Stone Bricks Stairs",
+      "block.soulcataclysm.cracked_soul_stone_bricks": "Cracked Soul Stone Bricks",
+      "block.soulcataclysm.soul_bricks_slab": "Soul Bricks Slab",
+      "block.soulcataclysm.soul_cobblestone": "Soul Cobblestone",
+      "block.soulcataclysm.mossy_soul_stone_bricks_wall": "Mossy Soul Stone Bricks Wall",
+      "block.soulcataclysm.soul_stone_bricks_stairs": "Soul Stone Bricks Stairs",
+      "block.soulcataclysm.soul_wood_door": "Soul Wood Door",
+      "block.soulcataclysm.soul_dirt": "Soul Dirt",
+      "block.soulcataclysm.mossy_soul_cobblestone_wall": "Mossy Soul Cobblestone Wall",
+      "block.soulcataclysm.soul_farmland": "Soul Farmland",
+      "block.soulcataclysm.mossy_soul_cobblestone": "Mossy Soul Cobblestone",
+      "block.soulcataclysm.soul_wood": "Soul Wood",
+      "block.soulcataclysm.soul_wood_slab": "Soul Wood Slab",
+      "block.soulcataclysm.soul_stone": "Soul Stone",
       "item_group.soulcataclysm.soul_cataclysm_tab": "Soul Cataclysm",
       "block.soulcataclysm.soul_bricks_wall": "Soul Bricks Wall"
     }

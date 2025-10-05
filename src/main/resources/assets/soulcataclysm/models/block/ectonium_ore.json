@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soulcataclysm:block/ectonium_ore",
+    "up": "soulcataclysm:block/ectonium_ore",
+    "north": "soulcataclysm:block/ectonium_ore",
+    "east": "soulcataclysm:block/ectonium_ore",
+    "south": "soulcataclysm:block/ectonium_ore",
+    "west": "soulcataclysm:block/ectonium_ore",
+    "particle": "soulcataclysm:block/ectonium_ore"
+  },
+  "render_type": "solid"
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "soulcataclysm:soul_grass_block",
     "soulcataclysm:soul_dirt_path",
     "soulcataclysm:soul_dirt"
   ]

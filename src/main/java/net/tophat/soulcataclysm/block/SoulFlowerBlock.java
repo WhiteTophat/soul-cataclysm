@@ -37,7 +37,7 @@ public class SoulFlowerBlock extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-		return groundState.is(SoulcataclysmModBlocks.SOUL_DIRT.get());
+		return groundState.is(SoulcataclysmModBlocks.SOUL_DIRT.get()) || groundState.is(SoulcataclysmModBlocks.SOUL_DIRT_PATH.get()) || groundState.is(SoulcataclysmModBlocks.SOUL_GRASS_BLOCK.get());
 	}
 
 	@Override

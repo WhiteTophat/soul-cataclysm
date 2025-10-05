@@ -63,5 +63,7 @@ public class SoulcataclysmModTabs {
 				tabData.accept(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_SLAB.get().asItem());
 				tabData.accept(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_STAIRS.get().asItem());
 				tabData.accept(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_WALL.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.SOUL_GRASS_BLOCK.get().asItem());
+				tabData.accept(SoulcataclysmModBlocks.ECTONIUM_ORE.get().asItem());
 			}).build());
 }

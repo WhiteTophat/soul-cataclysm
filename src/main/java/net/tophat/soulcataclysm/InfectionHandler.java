@@ -93,6 +93,11 @@ public class InfectionHandler {
 	public static void setPoints(LevelAccessor world, double value) {
 		SoulcataclysmModVariables.WorldVariables.get(world).points = value;
 	}
+	public static double changePoints(LevelAccessor world, double value) {
+		double points = getPoints(world);
+		setPoints(world, points + value);
+		return points + value;
+	}
 
 	// Spreading System
     public static Stack<BlockPos> getNeighboringBlocks(BlockPos pos) {
@@ -158,6 +163,9 @@ public class InfectionHandler {
     }
 	public static BlockState infectBlock(BlockState block) {
 		if (blockHasTag(block, "minecraft:dirt")) {
+			if (block.getBlock() == Blocks.GRASS_BLOCK) {
+				return SoulcataclysmModBlocks.SOUL_GRASS_BLOCK.get().defaultBlockState();
+			}
 			return SoulcataclysmModBlocks.SOUL_DIRT.get().defaultBlockState();
 
 		} else if (blockHasTag(block, "minecraft:logs")) {
@@ -304,10 +312,17 @@ public class InfectionHandler {
 				"shape"
 			});
 
-		} else if (block.getBlock() == Blocks.TORCH) {
-			return Blocks.SOUL_TORCH.get().defaultBlockState();
+		} else if (block.getBlock() == Blocks.TORCH) {
+			return Blocks.SOUL_TORCH.defaultBlockState();
+
 		} else if (block.getBlock() == Blocks.WALL_TORCH) {
-			return copyProperty(block, Blocks.SOUL_WALL_TORCH.get().defaultBlockState(), "facing");
+			return copyProperty(block, Blocks.SOUL_WALL_TORCH.defaultBlockState(), "facing");
+
+		} else if (block.getBlock() == Blocks.SAND) {
+			return Blocks.SOUL_SAND.defaultBlockState();
+
+		} else if (blockHasTag(block, "forge:ores")) {
+			return SoulcataclysmModBlocks.ECTONIUM_ORE.get().defaultBlockState();
 		}
 		return Blocks.AIR.defaultBlockState();
 	}

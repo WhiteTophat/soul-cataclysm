@@ -23,6 +23,7 @@ import net.tophat.soulcataclysm.block.SoulStoneBlock;
 import net.tophat.soulcataclysm.block.SoulPlanksBlock;
 import net.tophat.soulcataclysm.block.SoulLogBlock;
 import net.tophat.soulcataclysm.block.SoulLeavesBlock;
+import net.tophat.soulcataclysm.block.SoulGrassBlockBlock;
 import net.tophat.soulcataclysm.block.SoulGrassBlock;
 import net.tophat.soulcataclysm.block.SoulFlowerBlock;
 import net.tophat.soulcataclysm.block.SoulFarmlandBlock;
@@ -46,6 +47,7 @@ import net.tophat.soulcataclysm.block.MossySoulCobblestoneWallBlock;
 import net.tophat.soulcataclysm.block.MossySoulCobblestoneStairsBlock;
 import net.tophat.soulcataclysm.block.MossySoulCobblestoneSlabBlock;
 import net.tophat.soulcataclysm.block.MossySoulCobblestoneBlock;
+import net.tophat.soulcataclysm.block.EctoniumOreBlock;
 import net.tophat.soulcataclysm.block.EctoniumBlockBlock;
 import net.tophat.soulcataclysm.block.CrackedSoulStoneBricksBlock;
 import net.tophat.soulcataclysm.block.ChiseledSoulStoneBricksBlock;
@@ -104,6 +106,8 @@ public class SoulcataclysmModBlocks {
 	public static final RegistryObject<Block> MOSSY_SOUL_COBBLESTONE_STAIRS = REGISTRY.register("mossy_soul_cobblestone_stairs", () -> new MossySoulCobblestoneStairsBlock());
 	public static final RegistryObject<Block> MOSSY_SOUL_COBBLESTONE_WALL = REGISTRY.register("mossy_soul_cobblestone_wall", () -> new MossySoulCobblestoneWallBlock());
 	public static final RegistryObject<Block> SOUL_FARMLAND = REGISTRY.register("soul_farmland", () -> new SoulFarmlandBlock());
+	public static final RegistryObject<Block> SOUL_GRASS_BLOCK = REGISTRY.register("soul_grass_block", () -> new SoulGrassBlockBlock());
+	public static final RegistryObject<Block> ECTONIUM_ORE = REGISTRY.register("ectonium_ore", () -> new EctoniumOreBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

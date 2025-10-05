@@ -64,6 +64,8 @@ public class SoulcataclysmModItems {
 	public static final RegistryObject<Item> MOSSY_SOUL_COBBLESTONE_STAIRS = block(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_STAIRS);
 	public static final RegistryObject<Item> MOSSY_SOUL_COBBLESTONE_WALL = block(SoulcataclysmModBlocks.MOSSY_SOUL_COBBLESTONE_WALL);
 	public static final RegistryObject<Item> SOUL_FARMLAND = block(SoulcataclysmModBlocks.SOUL_FARMLAND);
+	public static final RegistryObject<Item> SOUL_GRASS_BLOCK = block(SoulcataclysmModBlocks.SOUL_GRASS_BLOCK);
+	public static final RegistryObject<Item> ECTONIUM_ORE = block(SoulcataclysmModBlocks.ECTONIUM_ORE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

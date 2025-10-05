@@ -11,6 +11,7 @@ public class SoulCommunicatorOnBlockRightClickedProcedure {
 			return;
 		if (entity instanceof Player _player && !_player.level().isClientSide()) {
 			_player.displayClientMessage(Component.literal("Reputation: " + InfectionHandler.getReputation(_player.level(), _player)), false);
+			_player.displayClientMessage(Component.literal("Points: " + InfectionHandler.getPoints(_player.level())), false);
 		}
 	}
 }

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "soulcataclysm:ectonium_ore",
     "soulcataclysm:mossy_soul_cobblestone_wall",
     "soulcataclysm:mossy_soul_cobblestone_stairs",
     "soulcataclysm:mossy_soul_cobblestone_slab",
